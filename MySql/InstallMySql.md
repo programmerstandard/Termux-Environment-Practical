@@ -1,3 +1,9 @@
+## Prepare The Configuration
+
+```
+termux-setup-storage
+```
+
 ## Install Package MySql ( "mariadb" ):
 
 ```
@@ -16,13 +22,13 @@ apt list —manual-installed
 /data/data/com.termux/files/usr/var/lib/mysql
 ```
 
-Tap `Ctrl` + `Z`
-
 ## Run MySql
 
 ```
 mysqld_safe --skip-grant-tables
 ```
+
+Tap `Ctrl` + `Z`
 
 ## Login To MySql
 
