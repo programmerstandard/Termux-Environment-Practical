@@ -4,19 +4,21 @@
 pkg install mariadb
 ```
 
-## Check Installed Package
+### Check Installed Package
 
 ```
  apt list — manual-installed
-`
+```
 
-### Locationocation
+### Location
 
 ```
 /data/data/com.termux/files/usr/var/lib/mysql
 ```
 
-## Run MySqmysqld
+## Run MySql
+
+```
 mysqld_safe --skip-grant-tables
 ```
 
@@ -26,7 +28,9 @@ mysqld_safe --skip-grant-tables
 mysql -u root
 ```
 
-If have a password:
+If have a password, type:
 ```
 mysql -u root -p
 ```
+Then press enter.
+Type your password, Then Press enter.
