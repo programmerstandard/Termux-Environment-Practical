@@ -7,7 +7,7 @@ pkg install mariadb
 ### Check Installed Package
 
 ```
- apt list — manual-installed
+apt list —manual-installed
 ```
 
 ### Location
