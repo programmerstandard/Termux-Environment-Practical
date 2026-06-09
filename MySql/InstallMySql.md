@@ -4,15 +4,19 @@
 pkg install mariadb
 ```
 
-## Mysql Location
+## Check Installed Package
+
+```
+ apt list — manual-installed
+`
+
+### Locationocation
 
 ```
 /data/data/com.termux/files/usr/var/lib/mysql
 ```
 
-## Run MySql
-
-```
+## Run MySqmysqld
 mysqld_safe --skip-grant-tables
 ```
 
