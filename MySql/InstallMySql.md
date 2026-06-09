@@ -16,6 +16,8 @@ pkg install mariadb
 /data/data/com.termux/files/usr/var/lib/mysql
 ```
 
+Tap `Ctrl` + `Z`
+
 ## Run MySql
 
 ```
