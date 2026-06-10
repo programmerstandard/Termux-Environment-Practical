@@ -32,6 +32,8 @@ Tap `Ctrl` + `Z`
 
 ## Login To MySql
 
+To access Mysql client, type:
+
 ```
 mysql -u root
 ```
