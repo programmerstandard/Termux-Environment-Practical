@@ -18,6 +18,8 @@ apt list —manual-installed
 
 ### Location
 
+General database path location:
+
 ```
 /data/data/com.termux/files/usr/var/lib/mysql
 ```
