@@ -13,8 +13,14 @@ pkg install mariadb
 ### Check Installed Package
 
 ```
+pkg list-installed | grep mariadb
+```
+
+<!--
+```
 apt list —manual-installed
 ```
+-->
 
 ### Location
 
