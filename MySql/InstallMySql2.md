@@ -4,6 +4,13 @@
 termux-setup-storage
 ```
 
+# Preparation
+
+```
+apt update
+apt upgrade
+```
+
 ## Install Package MySql ( "mariadb" ):
 
 ```
@@ -13,14 +20,8 @@ apt install mariadb
 ### Check Installed Package
 
 ```
-pkg list-installed | grep mariadb
+apt list —manual-installed | grep mariadb
 ```
-
-<!--
-```
-apt list —manual-installed
-```
--->
 
 ### Location
 
