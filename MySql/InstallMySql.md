@@ -23,12 +23,6 @@ pkg install mariadb
 pkg list-installed | grep mariadb
 ```
 
-<!--
-```
-apt list —manual-installed
-```
--->
-
 ### Location
 
 General database path location:
