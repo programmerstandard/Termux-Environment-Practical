@@ -66,3 +66,9 @@ mysql -u root -p
 ```
 Then press enter.
 Type your password, Then Press enter.
+
+## Exit From MySql
+
+```
+exit;
+```
