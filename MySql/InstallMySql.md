@@ -4,6 +4,13 @@
 termux-setup-storage
 ```
 
+## Preparation
+
+```
+pkg update
+pkg upgrade
+```
+
 ## Install Package MySql ( "mariadb" ):
 
 ```
