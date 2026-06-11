@@ -36,6 +36,12 @@ General database manager path location:
 /data/data/com.termux/files/usr/bin/
 ```
 
+## Initialize The Data
+
+```
+mysql_install_db
+```
+
 ## Run MySql
 
 initial running :
