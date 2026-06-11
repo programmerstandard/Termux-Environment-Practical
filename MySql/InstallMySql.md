@@ -48,6 +48,12 @@ General Log Path:
 /data/data/com.termux/files/usr/var/log/mysql
 ```
 
+## Check MySql Installed Version
+
+```
+mysql --version
+```
+
 ## Initialize The Data
 
 ```
