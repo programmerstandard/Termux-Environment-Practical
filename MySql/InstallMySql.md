@@ -36,6 +36,18 @@ General database manager path location:
 /data/data/com.termux/files/usr/bin/
 ```
 
+General Configuration Path:
+
+```
+/data/data/com.termux/files/usr/etc/
+/data/data/com.termux/files/usr/etc/my.cnf
+```
+
+General Log Path:
+```
+/data/data/com.termux/files/usr/var/log/mysql
+```
+
 ## Initialize The Data
 
 ```
