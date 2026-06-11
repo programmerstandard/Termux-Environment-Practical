@@ -76,11 +76,21 @@ Enable unix_socket authentication? [Y/n]
 Answer with n.
 
 ```
+Set root password? [Y/n]
+```
+
+Answer with n, if no password requirement for root.
 
 ## Run MySql
 
 initial running :
 
+```
+mysqld_safe -u root
+```
+
+or you can use:
+ 
 ```
 mysqld_safe --skip-grant-tables --skip-networking &
 ```
