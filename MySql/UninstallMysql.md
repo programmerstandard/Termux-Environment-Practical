@@ -27,7 +27,7 @@ pkg uninstall mariadb
 ## Remove Data Directory
 
 ```
-rmdir -rf $PREFIX/var/lib/mysql
+rm -rf $PREFIX/var/lib/mysql
 ```
 
 ## Remove Configuration Files
