@@ -7,7 +7,7 @@ mysqld_safe -u root
 
 **Notes:** 
 
-* root is registered uaername.
+* root is registered username.
 
 ## Access To MySql
 
