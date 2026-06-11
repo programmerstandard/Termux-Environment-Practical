@@ -30,10 +30,18 @@ General database path location:
 /data/data/com.termux/files/usr/var/lib/mysql
 ```
 
-## Run MySql
+General database manager path location:
 
 ```
-mysqld_safe --skip-grant-tables
+/data/data/com.termux/files/usr/bin/
+```
+
+## Run MySql
+
+initial running :
+
+```
+mysqld_safe --skip-grant-tables --skip-networking &
 ```
 
 Tap `Ctrl` + `Z`
