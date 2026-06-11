@@ -54,6 +54,29 @@ General Log Path:
 mysql_install_db
 ```
 
+## Initialize Configuration
+
+```
+mysql_secure_installation
+```
+
+If you get this prompt:
+
+```
+Enter root user password or leave blank:
+Enter current password for root (enter for none):
+```
+
+Tap Enter twice, if you leave with empty password. Or type password then enter. Type the same password again and tap Enter.
+
+```
+Enable unix_socket authentication? [Y/n]
+```
+
+Answer with n.
+
+```
+
 ## Run MySql
 
 initial running :
@@ -84,3 +107,5 @@ Type your password, Then Press enter.
 ```
 exit;
 ```
+
+If you want to using MySql database, read in "Using MySql.md"
