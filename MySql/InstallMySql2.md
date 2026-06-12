@@ -52,7 +52,7 @@ General Log Path:
 ## Check MySql Installed Version
 
 ```
-mysql --version
+mariadb --version
 ```
 
 ## Initialize The Data
@@ -93,28 +93,28 @@ Answer with n, if no password requirement for root.
 initial running :
 
 ```
-mysqld_safe -u root
+mariadbd-safe -u root
 ```
 
 or you can use:
  
 ```
-mysqld_safe --skip-grant-tables --skip-networking &
+mariadbd-safe --skip-grant-tables --skip-networking &
 ```
 
-Tap `Ctrl` + `Z`
+Tap `Ctrl` + `Z` or Tap `Enter`
 
 ## Login To MySql
 
 To access Mysql client, type:
 
 ```
-mysql -u root
+mariadb -u root
 ```
 
 If have a password, type:
 ```
-mysql -u root -p
+mariadb -u root -p
 ```
 Then press enter.
 Type your password, Then Press enter.
