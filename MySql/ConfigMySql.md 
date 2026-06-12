@@ -1,4 +1,4 @@
-Socket Mysqld:
+## Socket Mysqld:
 
 ```
 /data/data/com.termux/files/usr/var/run/mysqld.sock
