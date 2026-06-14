@@ -1,3 +1,6 @@
+## Install Termux 
+Google Play Store versions of Termux are restricted and may not support full functionality. Use F-Droid instead. 
+
 ## Prepare The Configuration
 
 ```
