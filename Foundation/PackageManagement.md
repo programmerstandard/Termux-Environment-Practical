@@ -19,6 +19,10 @@ pkg list-installed | grep <package-name>
 ```bash
 pkg show <package-name>
 ```
+## Explore File List From A Package
+```bash
+pkg files
+```
 
 ## Change Repository
 
