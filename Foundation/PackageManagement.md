@@ -21,7 +21,7 @@ pkg show <package-name>
 ```
 ## Explore File List From A Package
 ```bash
-pkg files  <package-name>
+pkg files <package-name>
 ```
 
 ## Change Repository
