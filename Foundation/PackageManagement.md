@@ -1,7 +1,7 @@
 
 ## Verify Installed Packages
 ```termux
-pkg __list-installed__
+pkg list-installed
 ```
 
 ## Verify An Installed Package
