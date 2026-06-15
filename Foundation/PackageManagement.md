@@ -1,8 +1,8 @@
-# Termux Package Management 
+# Termux Package Management
 
 ## Verify Installed Packages
-```termux
-pkg list-installed
+```markdown
+pkg __<list-installed>__
 ```
 
 ## Verify An Installed Package
