@@ -20,6 +20,12 @@ pkg list-installed | grep <package-name>
 pkg show <package-name>
 ```
 
+## Change Repository
+
+```
+termux-change-repo
+ ```
+
 **Notes**
 
 > Change `<package-name>` with your required package.
