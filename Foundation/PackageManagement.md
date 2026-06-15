@@ -24,7 +24,7 @@ pkg show <package-name>
 
 ```
 termux-change-repo
- ```
+```
 
 **Notes**
 
