@@ -6,7 +6,7 @@ pkg list-installed
 
 ## Verify An Installed Package
 ```
-pkg list-installed| grep <package-name>
+pkg list-installed | grep <package-name>
 ```
 
 ## Explore Package Information
