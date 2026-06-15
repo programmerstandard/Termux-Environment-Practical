@@ -6,4 +6,4 @@
 
 
 **Notes**
-* 'data/data/com.termux/files/usr/' can alternate to $PREFIX.
+* `'data/data/com.termux/files/usr/'` can alternate to `$PREFIX`.
