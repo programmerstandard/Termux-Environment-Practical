@@ -1,6 +1,6 @@
 
 ## Verify Installed Packages
-```
+```termux
 pkg list-installed
 ```
 
@@ -10,6 +10,6 @@ pkg list-installed | grep <package-name>
 ```
 
 ## Explore Package Information
-```
+```bash
 pkg show _<package-name>_
 ```
