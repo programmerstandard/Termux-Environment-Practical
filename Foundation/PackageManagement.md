@@ -1,5 +1,10 @@
 # Termux Package Management
 
+## List All Available Packages In Repositories 
+```bash
+pkg list-all
+```
+
 ## Verify Installed Packages
 ```bash
 pkg list-installed
