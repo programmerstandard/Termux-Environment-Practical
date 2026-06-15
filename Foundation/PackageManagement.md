@@ -5,7 +5,7 @@ pkg list-installed
 ```
 
 ## Verify An Installed Package
-```
+```bash
 pkg list-installed | grep <package-name>
 ```
 
