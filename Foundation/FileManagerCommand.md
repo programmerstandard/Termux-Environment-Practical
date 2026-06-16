@@ -30,6 +30,18 @@ cd <directory-path>
 cd ..
 ```
 
+## Go To The Root Directory
+
+```
+cd /
+```
+
+## Go To Home Directory
+
+```
+cd ~
+```
+
 ## Create The Directory
 
 ```
