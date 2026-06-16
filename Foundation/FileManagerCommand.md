@@ -6,6 +6,12 @@
 ls
 ```
 
+## List Files And Directories In Certain Directory
+
+```
+ls <directory-path>
+```
+
 ## Show Current Directory Path
 
 ```
@@ -27,7 +33,7 @@ cd ..
 ## Create The Directory
 
 ```
-mkdir <directory _name>
+mkdir <directory_name>
 ```
 
 ## Remove The Directory
