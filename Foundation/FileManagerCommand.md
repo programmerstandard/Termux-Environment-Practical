@@ -6,13 +6,13 @@
 ls
 ```
 
-# Show Current Directory Path
+## Show Current Directory Path
 
 ```
 pwd
 ```
 
-# Change Directory
+## Change Directory
 
 ```
 cd <directory-path>
@@ -24,13 +24,13 @@ go back to parent directory:
 cd ..
 ```
 
-# Create The Directory
+## Create The Directory
 
 ```
 mkdir <directory _name>
 ```
 
-# Remove The Directory
+## Remove The Directory
 
 ```
 rmdir <directory_name>
