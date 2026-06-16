@@ -24,7 +24,7 @@ pwd
 cd <directory-path>
 ```
 
-go back to parent directory: 
+## Go Back To Parent Directory: 
 
 ```
 cd ..
