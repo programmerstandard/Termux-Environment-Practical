@@ -1,3 +1,5 @@
+# Install Mysql 2
+
 ## Prepare The Configuration
 
 ```
