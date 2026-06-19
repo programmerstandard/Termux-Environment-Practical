@@ -25,6 +25,12 @@ apt install mariadb
 apt list —manual-installed | grep mariadb
 ```
 
+## Check MySql Installed Version
+
+```
+mariadb --version
+```
+
 ### Location
 
 General database path location:
@@ -49,12 +55,6 @@ General Configuration Path:
 General Log Path:
 ```
 /data/data/com.termux/files/usr/var/log/mysql
-```
-
-## Check MySql Installed Version
-
-```
-mariadb --version
 ```
 
 ## Initialize The Data
