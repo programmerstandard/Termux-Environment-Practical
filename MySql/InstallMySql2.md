@@ -48,7 +48,6 @@ General database manager path location:
 General Configuration Path:
 
 ```
-/data/data/com.termux/files/usr/etc/
 /data/data/com.termux/files/usr/etc/my.cnf
 ```
 
