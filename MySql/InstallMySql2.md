@@ -25,7 +25,7 @@ apt install mariadb
 apt list --manual-installed | grep mariadb
 ```
 
-## Check MySql Installed Version
+### Check MySql Installed Version
 
 ```
 mariadb --version
