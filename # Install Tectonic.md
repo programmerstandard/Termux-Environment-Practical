@@ -1,9 +1,9 @@
 ---
 created: 2026-06-20T07:57:06+07:00
-modified: 2026-06-20T07:57:29+07:00
+modified: 2026-06-20T08:07:04+07:00
 ---
 
-# # Install Tectonic
+# Install Tectonic
 
 Tectonic (a modern, self-contained TeX/LaTeX engine) in Termux on Android.
 
