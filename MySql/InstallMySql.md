@@ -1,7 +1,7 @@
 # Install Mysql 1
 
 ## Install Termux 
-Google Play Store versions of Termux are restricted and may not support full functionality. Use F-Droid instead. 
+Google Play Store versions of Termux are restricted and may not support full functionality. Use Termux from F-Droid instead. 
 
 ## Prepare The Configuration
 
