@@ -26,7 +26,7 @@ typically will output `/data/data/com.termux/files/usr/`
 dpkg -l | grep -E 'bash|coreutils|apt'
 ```
 
-## Typically Bootstrap Package Contents:
+### Typically Bootstrap Package Contents:
 
 Each bootstrap packages is a ZIP Package typically contains:
 * __Core Unix Binaries__: `bash`, `coreutils`,  `apt`, package manager tools.
@@ -34,6 +34,17 @@ Each bootstrap packages is a ZIP Package typically contains:
 * __Package Metadata__: `SYMLINKS.txt` for symlink creation during extraction.
 * __Initial Package Database__: Pre-configured `apt` repository state.
 
+## Get Android Version
+
+```bash
+getprop ro.build.version.release
+```
+
+## Get Android SDK/API Level:
+
+```bash
+getprop ro.build.version.sdk
+```
 
 ## Update Repository List
 
