@@ -1,5 +1,7 @@
 # Termux Package Management
 
+## package metadata:
+
 ## List All Available Packages In Repositories 
 ```bash
 pkg list-all
