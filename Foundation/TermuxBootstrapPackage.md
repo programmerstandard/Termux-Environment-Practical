@@ -26,3 +26,10 @@ typically will output `/data/data/com.termux/files/usr/`
 dpkg -l | grep -E 'bash|coreutils|apt'
 ```
 
+## 
+
+## Identify Your Architecture
+
+```bash
+uname -m
+```
