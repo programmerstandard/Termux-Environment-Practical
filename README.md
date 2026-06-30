@@ -11,7 +11,8 @@ To read internal command list help, type:
 help
 ```
 
-More tutorial to use help, read on `UsingHelp.md`
+* More tutorial to use help, read on `UsingHelp.md`.
+* For a complete reference, check the __Termux Wiki__, __Termux Handbook__, etc.
 
 ## Notes
 
