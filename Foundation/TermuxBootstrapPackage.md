@@ -29,7 +29,7 @@ dpkg -l | grep -E 'bash|coreutils|apt'
 ## Update Repository List
 
 ```bash
-plg update
+pkg update
 ```
 
 ## Identify Your Architecture
