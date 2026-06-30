@@ -16,3 +16,9 @@ echo $PREFIX
 ls $PREFIX/bin
 ```
 
+## Check core Bootstrap Packages:
+
+```bash
+dpkg -l | grep -E 'bash|coreutils|apt'
+```
+
