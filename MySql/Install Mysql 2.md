@@ -1,8 +1,3 @@
----
-created: 2026-06-30T07:15:40+07:00
-modified: 2026-06-30T07:16:03+07:00
----
-
 # Install Mysql 2
 
 ## Prepare The Configuration
