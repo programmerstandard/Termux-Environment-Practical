@@ -26,10 +26,16 @@ typically will output `/data/data/com.termux/files/usr/`
 dpkg -l | grep -E 'bash|coreutils|apt'
 ```
 
-## 
+## Update Repository List
+
+```bash
+plg update
+```
 
 ## Identify Your Architecture
 
 ```bash
 uname -m
 ```
+
+Common results: `aarch64, arm, x86_64, i686`
