@@ -26,6 +26,14 @@ typically will output `/data/data/com.termux/files/usr/`
 dpkg -l | grep -E 'bash|coreutils|apt'
 ```
 
+## Typically Bootstrap Package Contents:
+
+Each bootstrap packages is a ZIP Package typically contains:
+* _Core Unix Binaries_: `bash`, `coreutils`,  `apt` package manager tools 
+* **Shared Libraries**: `libc`, `libm`
+
+```
+
 ## Update Repository List
 
 ```bash
