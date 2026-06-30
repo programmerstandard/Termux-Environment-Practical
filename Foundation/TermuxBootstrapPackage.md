@@ -1,8 +1,3 @@
----
-created: 2026-06-30T07:44:28+07:00
-modified: 2026-06-30T07:55:01+07:00
----
-
 # Termux Bootstrap Package
 
 ## About The Termux Bootstrap Package
@@ -13,3 +8,11 @@ The Termux bootstrap contains the minimal Linux environment (such as bash, coreu
 ```bash
 termux-info
 ```
+
+## Check Is The `$PREFIX` exists:
+
+```bash
+echo $PREFIX
+ls $PREFIX/bin
+```
+
