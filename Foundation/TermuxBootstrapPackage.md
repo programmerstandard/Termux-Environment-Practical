@@ -30,7 +30,7 @@ dpkg -l | grep -E 'bash|coreutils|apt'
 
 Each bootstrap packages is a ZIP Package typically contains:
 * __Core Unix Binaries__: `bash`, `coreutils`,  `apt`, package manager tools.
-* **Shared Libraries**: `libc`, `libm`, runtime dependencies.
+* __Shared Libraries__: `libc`, `libm`, runtime dependencies.
 
 
 
