@@ -1,4 +1,6 @@
-# Warning: 
+# Remove MySql
+
+## Warning:
 These following tutorial will permanently deletes all your databases! Back up any important data first, if needed.
 
 ## Shutdown Mysql ( using mysqladmin )
