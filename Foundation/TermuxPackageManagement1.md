@@ -1,6 +1,10 @@
 # Termux Package Management
 
-## package metadata:
+## Update Package Metadata:
+
+```bash
+pkg update
+```
 
 ## List All Available Packages In Repositories 
 ```bash
