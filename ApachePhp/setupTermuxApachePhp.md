@@ -1,4 +1,4 @@
-# Install Apache, PHP, Composer
+# Install Apache, PHP, Composer 1
 
 ## Preparation
 
