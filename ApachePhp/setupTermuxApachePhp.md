@@ -17,3 +17,15 @@ pkg install apache2
 ```bash
 apachectl start
 ```
+
+## Install PHP
+
+```bash
+pkg instal php
+```
+
+## Check PHP
+
+```bash
+pkg list-installed | grep php
+```
