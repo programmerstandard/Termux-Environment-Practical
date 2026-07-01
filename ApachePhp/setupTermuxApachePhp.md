@@ -12,6 +12,12 @@ pkg update && pkg upgrade
 pkg install apache2
 ```
 
+## Check Apache 
+
+```bash
+apachectl -v
+```
+
 ## Running Apache2
 
 ```bash
