@@ -28,13 +28,7 @@ apachectl -v
 apachectl start
 ```
 
-## Install PHPUnit
-
-## Install Xdebug
-
-## Configure Xdebug
-
-## Install PHP Man
+## Install PHP
 
 ```bash
 pkg instal php
@@ -50,4 +44,11 @@ pkg list-installed | grep php
 
 ## Make Sure Composer Location
 
-## Install PHP
+
+## Install PHPUnit
+
+## Install Xdebug
+
+## Configure Xdebug
+
+## Install PMan
