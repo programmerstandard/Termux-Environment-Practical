@@ -6,6 +6,8 @@
 pkg update && pkg upgrade
 ```
 
+type `y` is needed.
+
 ## Install Apache2 On Termux
 
 ```bash
@@ -18,13 +20,21 @@ pkg install apache2
 apachectl -v
 ```
 
+## Configure Apache 2
+
 ## Running Apache2
 
 ```bash
 apachectl start
 ```
 
-## Install PHP
+## Install PHPUnit
+
+## Install Xdebug
+
+## Configure Xdebug
+
+## Install PHP Man
 
 ```bash
 pkg instal php
@@ -35,3 +45,9 @@ pkg instal php
 ```bash
 pkg list-installed | grep php
 ```
+
+## Install Composer
+
+## Make Sure Composer Location
+
+## Install PHP
