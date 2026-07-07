@@ -25,7 +25,8 @@ apachectl -v
 ## Configure Apache2
 
 ```bash
-cd $PREFIX/etc/apache2/httpd.conf
+cd $PREFIX/etc/apache2/
+nano httpd.conf
 ```
 
 make the following adjustment:
@@ -35,7 +36,7 @@ make the following adjustment:
 libexec/apache2/mod_mpm_worker.so
 
 LoadModule mpm_prefork_module
-
+libexec/apache2/mod_mpm_prefork.so
 ```
 
 
