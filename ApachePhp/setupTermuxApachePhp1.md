@@ -1,5 +1,7 @@
 # Install Apache, PHP, Composer 1
 
+Default Apache multi processing module (mpm_worker)
+
 ## Preparation
 
 ```bash
@@ -38,6 +40,12 @@ pkg instal php
 
 ```bash
 pkg list-installed | grep php
+```
+
+## Install PHP-Apache Package
+
+```bash
+pkg install php-apache
 ```
 
 ## Install Composer
