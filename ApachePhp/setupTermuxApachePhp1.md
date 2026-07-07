@@ -8,7 +8,7 @@ Default Apache multi processing module (mpm_worker)
 pkg update && pkg upgrade
 ```
 
-type `y` is needed.
+type `y` if needed.
 
 ## Install Apache2 On Termux
 
@@ -22,7 +22,22 @@ pkg install apache2
 apachectl -v
 ```
 
-## Configure Apache 2
+## Configure Apache2
+
+```bash
+cd $PREFIX/etc/apache2/httpd.conf
+```
+
+make the following adjustment:
+
+```
+# LoadModule mpm_worker_module
+libexec/apache2/mod_mpm_worker.so
+
+LoadModule mpm_prefork_module
+
+```
+
 
 ## Running Apache2
 
