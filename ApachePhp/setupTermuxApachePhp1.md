@@ -39,6 +39,11 @@ LoadModule mpm_prefork_module
 libexec/apache2/mod_mpm_prefork.so
 ```
 
+Swipe to the bottom of module declarations and link the Termux PHP Library:
+
+```ini
+LoadModule php_module libexec/apache2/libphp.so
+```
 
 ## Running Apache2
 
