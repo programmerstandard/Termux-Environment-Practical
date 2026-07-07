@@ -30,7 +30,7 @@ cd $PREFIX/etc/apache2/httpd.conf
 
 make the following adjustment:
 
-```
+```ini
 # LoadModule mpm_worker_module
 libexec/apache2/mod_mpm_worker.so
 
