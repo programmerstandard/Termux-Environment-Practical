@@ -1,4 +1,4 @@
-Install OpenJDK 8 under the Linux Container Environment
+# Install OpenJDK 8 under the Linux Container Environment On Termux
 
 ## Update Termux Repositories
 
@@ -40,13 +40,13 @@ pkg list-installed | grep proot
 proot-distro list
 ```
 
-## Login To Ubuntu distro
+## Login To Ubuntu distro under Termux
 
 ```bash
 proot-distro login ubuntu
 ```
 
-## Check If Login In Ubuntu
+## Check If Login In Termux Ubuntu
 
 ```bash
 cat /etc/os-release
@@ -78,7 +78,8 @@ Type `y` if need it.
 javac -version
 ```
 
-## Install xfce4 Under 
+## Install xfce4 Under Termux Ubuntu
+
 ```bash
 apt install xfce4
 ```
