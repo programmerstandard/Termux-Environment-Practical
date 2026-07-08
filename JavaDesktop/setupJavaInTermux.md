@@ -72,4 +72,9 @@ apt install openjdk-8-jdk
 
 Type `y` if need it.
 
+## Verify OpenJDK Has Installed
+
+```bash
+javac -version
+```
 
