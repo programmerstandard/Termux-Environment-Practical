@@ -58,6 +58,12 @@ or type this following command:
 whoami
 ```
 
+## Update Ubuntu Repositories
+
+```bash
+apt update && apt upgrade
+```
+
 ## Install Java OpenJDK 8 Under Ubuntu
 
 ```bash
