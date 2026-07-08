@@ -78,3 +78,8 @@ Type `y` if need it.
 javac -version
 ```
 
+## Install xfce4 Under 
+```bash
+apt install xfce4
+```
+
