@@ -26,6 +26,11 @@ pkg list-installed | grep x11
 pkg install proot-distro
 ```
 
+## Check If Login In Ubuntu
+
+```bash
+cat /etc/os-release
+```
 
 ## Install Java OpenJDK package
 
