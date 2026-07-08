@@ -14,16 +14,29 @@ pkg install x11-repo
 
 type `y` if need it.
 
-## Verify x11-repo Has Installed
+## Verify x11-repo Package Has Installed
 
 ```bash
 pkg list-installed | grep x11
 ```
 
-## Install proot-distro package
+## Install Ubuntu under proot package
 
 ```bash
+pkg install proot
 pkg install proot-distro
+```
+
+## Verify proot Package Has Installed
+
+```bash
+pkg list-installed | grep proot
+```
+
+## Login To Ubuntu distro
+
+```bash
+proot-distro login ubuntu
 ```
 
 ## Check If Login In Ubuntu
