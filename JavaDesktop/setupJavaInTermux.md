@@ -32,6 +32,12 @@ pkg install proot-distro
 cat /etc/os-release
 ```
 
+or type this following command:
+
+```bash
+whoami
+```
+
 ## Install Java OpenJDK package
 
 ```bash
