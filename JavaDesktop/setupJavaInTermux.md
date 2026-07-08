@@ -25,12 +25,19 @@ pkg list-installed | grep x11
 ```bash
 pkg install proot
 pkg install proot-distro
+proot-distro install ubuntu
 ```
 
 ## Verify proot Package Has Installed
 
 ```bash
 pkg list-installed | grep proot
+```
+
+## Verify Ubuntu Has Installed
+
+```bash
+proot-distro list
 ```
 
 ## Login To Ubuntu distro
