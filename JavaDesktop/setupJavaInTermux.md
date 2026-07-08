@@ -87,7 +87,7 @@ apt install xfce4
 ## Verify xfce4 Has Installed Under Termux Ubuntu
 
 ```bash
-apr list | xfce 
+apt list | xfce 
 ```
 
 
