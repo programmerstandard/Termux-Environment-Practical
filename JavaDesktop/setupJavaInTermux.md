@@ -6,7 +6,7 @@ Install OpenJDK 8 under the Linux Container Environment
 pkg update && upgrade
 ```
 
-## Install x11-repo
+## Install x11-repo package
 
 ```bash
 pkg install x11-repo
@@ -18,7 +18,12 @@ pkg install x11-repo
 pkg list-installed | grep x11
 ```
 
-## Install 
+## Install proot-distro package
+
+```bash
+pkg install proot-distro
+```
+
 
 ## Install Java OpenJDK package
 
