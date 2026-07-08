@@ -103,3 +103,4 @@ apt install tigervnc-standalone-server -y
 apt list | grep tigervnc-standalone-server
 ```
 
+
