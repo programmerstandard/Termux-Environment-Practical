@@ -67,7 +67,7 @@ apt update && apt upgrade
 ## Install Java OpenJDK 8 Under Ubuntu
 
 ```bash
-apt install openjdk-8-jdk
+apt install openjdk-8-jdk -y
 ```
 
 Type `y` if need it.
@@ -91,5 +91,15 @@ apt list | grep -w xfce4
 apt list | grep xfce4-goodies
 ```
 
+## Install tigervnc in Termux Ubuntu
 
+```bash
+apt install tigervnc-standalone-server -y
+```
+
+## Verify tigervnc in Termux Ubuntu
+
+```bash
+apt list | grep tigervnc-standalone-server
+```
 
