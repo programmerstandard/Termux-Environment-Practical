@@ -1,6 +1,6 @@
 Install OpenJDK 8 under the Linux Container Environment
 
-## Update Repositories
+## Update Termux Repositories
 
 ```bash
 pkg update && upgrade
@@ -51,8 +51,9 @@ or type this following command:
 whoami
 ```
 
-## Install Java OpenJDK package
+## Install Java OpenJDK 8 Under Ubuntu
 
 ```bash
-pkg install openjdk-
+apt install openjdk-8-jdk
 ```
+
