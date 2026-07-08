@@ -70,3 +70,6 @@ apt update && apt upgrade
 apt install openjdk-8-jdk
 ```
 
+Type `y` if need it.
+
+
