@@ -12,6 +12,8 @@ pkg update && upgrade
 pkg install x11-repo
 ```
 
+type `y` if need it.
+
 ## Verify x11-repo Has Installed
 
 ```bash
