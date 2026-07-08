@@ -50,6 +50,44 @@ mkdir <directory_name>
 
 ## Remove The Directory
 
+remove an empty directory
+
 ```
 rmdir <directory_name>
+```
+
+## Copy Files An Directories
+
+copy a file from source path to the destination path
+
+```
+cp <source> <destination>
+```
+
+## Move Or Rename Files And Directory
+
+Move or rename a file and directory from source path to destination path.
+
+```
+mv <source> <destination>
+```
+
+## Delete Files
+
+delete a file.
+
+```
+rm <file_name>
+```
+
+## View Contents Of A File
+
+```
+cat <file_name>
+```
+
+View contents of a file page by page.
+
+```
+less <file_name>
 ```
