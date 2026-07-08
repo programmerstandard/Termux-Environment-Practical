@@ -81,13 +81,14 @@ javac -version
 ## Install xfce4 Under Termux Ubuntu
 
 ```bash
-apt install xfce4
+apt install xfce4 xfce4-goodies
 ```
 
 ## Verify xfce4 Has Installed Under Termux Ubuntu
 
 ```bash
-apt list | xfce 
+apt list | grep -w xfce4
+apt list | grep xfce4-goodies
 ```
 
 
