@@ -16,4 +16,5 @@ help
 
 ## Notes
 
-Google Play Store versions of Termux are restricted and may not support full functionality. Use Termux from F-Droid instead.
+* Google Play Store versions of Termux are restricted and may not support full functionality. Use Termux from F-Droid instead.
+* You may found more updated informations and tutorials in other sources.
