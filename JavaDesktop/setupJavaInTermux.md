@@ -103,4 +103,19 @@ apt install tigervnc-standalone-server -y
 apt list | grep tigervnc-standalone-server
 ```
 
+## Setup Vnc Configuration
+
+```bash
+mkdir -p ~/.vnc
+echo "xfce4-session &" > ~/.vnc/xstartup
+chmod +x ~/.vnc/xstartup
+mkdir -p /root/.config/tigervnc
+```
+
+## Run Your Vnc Server
+
+```bash
+vncserver -localhost
+```
+
 
