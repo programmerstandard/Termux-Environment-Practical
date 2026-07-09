@@ -118,4 +118,32 @@ mkdir -p /root/.config/tigervnc
 vncserver -localhost
 ```
 
+## Set The Display Variable
 
+```
+export DISPLAY=:1
+```
+
+**Note**
+
+If your VNC Server running on different display number, change `:1` to other number.
+
+## To Stop Vnc Server
+
+```bash
+vncserver -kill :1
+```
+
+If the process stuck, you can also stop it by finding the process ID and forcing it to quit:
+
+```bash
+ps aux | grep vnc
+kill -9 [PID]
+```
+
+You can safely clear the session locks by running:
+
+```bash
+rm -rf /tmp/.X11-unix/X1
+rm -rf /tmp/.X1-lock
+```
