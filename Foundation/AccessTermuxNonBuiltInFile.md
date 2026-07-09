@@ -8,6 +8,11 @@ $PREFIX/etc/apache2/
 
 Configuration file that needs to check or backup with extension *.conf.
 
+### tigervnc path
+
+```bash
+$PREFIX/var/lib/proot-distro/installed-rootfs/ubuntu/root/.config/tigervnc/
+```
 
 ### vnc path
 
