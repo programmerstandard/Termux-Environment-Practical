@@ -82,6 +82,5 @@ rm <file_name>
 
 ## View Contents Of A File
 
-```
-cat <file_name>
+For Ciew Contents Of A File, read # `viewFiles.md`
 ```
