@@ -1,5 +1,10 @@
 # Termux Interoperation 
 
+**Notes**
+
+You may install `termux-tools` first, if missing before use this following commands.
+
+
 ## Access Shared Storage
 
 ```bash
