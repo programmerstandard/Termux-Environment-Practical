@@ -82,4 +82,4 @@ rm <file_name>
 
 ## View Contents Of A File
 
-For View Contents Of A File, read `viewFiles.md`
+For View Contents Of A File,read `viewFiles.md`
