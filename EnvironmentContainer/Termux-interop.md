@@ -6,7 +6,7 @@
 termux-setup-storage
 ```
 
-## Open From Termux Into Default Android Apps
+## Open From Termux Into Associated Android Apps
 
 ```bash
 termux-open <file-path | URL>
