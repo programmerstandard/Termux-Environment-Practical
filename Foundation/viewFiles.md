@@ -11,3 +11,5 @@ cat <file_name>
 ```bash
 less <file_name>
 ```
+
+For manage files, read [FileManagerCommand.md](FileManagerCommand.md)
