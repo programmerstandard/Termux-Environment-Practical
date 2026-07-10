@@ -82,5 +82,4 @@ rm <file_name>
 
 ## View Contents Of A File
 
-For Ciew Contents Of A File, read # `viewFiles.md`
-```
+For Ciew Contents Of A File, read `viewFiles.md`
