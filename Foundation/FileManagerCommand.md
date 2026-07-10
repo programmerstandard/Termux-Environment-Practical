@@ -85,9 +85,3 @@ rm <file_name>
 ```
 cat <file_name>
 ```
-
-View contents of a file page by page.
-
-```
-less <file_name>
-```
