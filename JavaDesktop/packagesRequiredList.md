@@ -7,3 +7,4 @@
 * x11
 * xfce
 * tigervnc
+* unzip
