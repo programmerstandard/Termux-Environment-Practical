@@ -5,3 +5,9 @@
 ```bash
 pkg update && upgrade
 ```
+
+## Access Shared Storage
+
+```bash
+termux-setup-storage
+```
