@@ -25,7 +25,7 @@ pkg install termux-tools zip unzip
 termux-setup-storage
 ```
 
-#### Install Tectonic
+### Install Tectonic
 
 ```bash
 pkg install tectonic
