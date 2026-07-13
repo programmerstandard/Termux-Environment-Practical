@@ -30,3 +30,8 @@ termux-setup-storage
 ```bash
 pkg install tectonic
 ```
+
+### Verify  Tectonic Has Installed
+```bash
+tectonic --version
+```
