@@ -3,6 +3,7 @@
 Tectonic (a modern, self-contained TeX/LaTeX engine) in Termux on Android.
 
 ## Requirements:
+- [ ] fontconfig-utils
 - [ ] tectonic
 - [ ] termux-tools
 - [ ] unzip
