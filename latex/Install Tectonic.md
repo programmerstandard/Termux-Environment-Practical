@@ -43,9 +43,20 @@ emacs --version
 pkg install tectonic
 ```
 
-### Verify  Tectonic Has Installed
+### Verify Tectonic Has Installed
 
 ```bash
 tectonic --version
 ```
 
+### Install Font Packages
+
+```bash
+pkg install fontconfig-utils
+```
+
+### Verify fontconfig-utils Has Installed
+
+```bash
+fc-cache -fv
+```
