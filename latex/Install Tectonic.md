@@ -7,8 +7,6 @@ Tectonic (a modern, self-contained TeX/LaTeX engine) in Termux on Android.
 - [ ] termux-tools
 - [ ] unzip
 
-## Install Tectonic
-
 ### Refresh Packages And Fix Repositories
 
 ```bash
@@ -19,4 +17,16 @@ pkg update --fix-missing && pkg upgrade -y
 
 ```bash
 pkg install termux-tools zip unzip
+```
+
+### Grant Android Shared Storage Access
+
+```bash
+termux-setup-storage
+```
+
+#### Install Tectonic
+
+```bash
+pkg install tectonic
 ```
