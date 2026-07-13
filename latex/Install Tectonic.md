@@ -25,6 +25,18 @@ pkg install termux-tools zip unzip
 termux-setup-storage
 ```
 
+### Install emacs
+
+```bash
+pkg install emacs
+```
+
+### Verify emacs Has Installed
+
+```bash
+emacs --version
+```
+
 ### Install Tectonic
 
 ```bash
@@ -32,6 +44,8 @@ pkg install tectonic
 ```
 
 ### Verify  Tectonic Has Installed
+
 ```bash
 tectonic --version
 ```
+
