@@ -50,6 +50,12 @@ pkg install tectonic
 tectonic --version
 ```
 
+### If tectonic Command Not Found:
+
+```bash
+source $PREFIX/etc/profile && hash -r
+```
+
 ### Install Font Packages
 
 ```bash
