@@ -61,3 +61,9 @@ pkg install fontconfig-utils
 ```bash
 fc-cache -fv
 ```
+
+### Create Or Edit Emacs Config
+
+```bash
+nano ~/.emacs
+```
