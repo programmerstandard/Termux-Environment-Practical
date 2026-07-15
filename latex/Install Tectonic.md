@@ -17,7 +17,7 @@ pkg update --fix-missing && pkg upgrade -y
 ### Base System Tools Setup
 
 ```bash
-pkg install termux-tools core-utils zip unzip
+pkg install termux-tools termux-api core-utils zip unzip
 ```
 
 ### Grant Android Shared Storage Access
