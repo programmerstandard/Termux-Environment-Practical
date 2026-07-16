@@ -19,3 +19,6 @@ help
 * Google Play Store versions of Termux are restricted and may not support full functionality. Use Termux from F-Droid instead.
 * Remember this repository only for development and maintenance servers!
 * You may found more updated informations and tutorials in other sources.
+
+Feel free to give thankyou by send PayPal:
+![PayPal donation please is valuable for operational](pp_p2p_my_qrcode_1778798034388.jpg " PayPal donation please is valuable for operational")
