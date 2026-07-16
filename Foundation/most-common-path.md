@@ -33,7 +33,7 @@ termux-setup-storage
 * ` ~/storage/shared/ `
 * ` ~/storage/downloads/ `
 * ` ~/storage/dcim/ `
-* . ~/storage/movies/ `
+* ` ~/storage/movies/ `
 * ` ~/storage/music/ `
 
 
