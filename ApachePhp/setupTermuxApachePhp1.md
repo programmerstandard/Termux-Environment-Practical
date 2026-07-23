@@ -10,7 +10,7 @@ pkg update && pkg upgrade
 
 type `y` if needed.
 
-## Install Apache2 On Termux
+## Install Apache2 Package On Termux
 
 ```bash
 pkg install apache2
@@ -51,7 +51,7 @@ LoadModule php_module libexec/apache2/libphp.so
 apachectl start
 ```
 
-## Install PHP
+## Install PHP Package
 
 ```bash
 pkg instal php
