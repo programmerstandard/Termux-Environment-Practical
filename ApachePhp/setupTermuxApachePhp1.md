@@ -28,6 +28,26 @@ pkg install apache2
 apachectl -v
 ```
 
+## Apache Location
+
+### Apache Binary Location
+
+```bash
+
+```
+
+### Apache Web Root Folder
+
+```bash
+$PREFIX/share/apache2/default-site/htdocs/
+```
+
+### Apache Configuration File Location
+
+```bash
+$PREFIX/etc/apache2/httpd.conf
+```
+
 ## Configure Apache2
 
 * Go to Apache2 folder then edit apache configuration file with nano text editor.
