@@ -30,6 +30,8 @@ apachectl -v
 
 ## Configure Apache2
 
+* Go to Apache2 folder then edit apache configuration file with nano text editor.
+
 ```bash
 cd $PREFIX/etc/apache2/
 nano httpd.conf
