@@ -83,7 +83,7 @@ nano httpd.conf
 
 make the following adjustment:
 
-# Change Server Port
+* Change Server Port
 
 ```bash
 Listen 8080
