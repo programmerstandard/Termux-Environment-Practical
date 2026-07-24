@@ -57,6 +57,14 @@ Swipe to the bottom of module declarations and link the Termux PHP Library:
 LoadModule php_module libexec/apache2/libphp.so
 ```
 
+* Add PHP Handler
+
+```apache
+<FilesMatch \.php$>
+  SetHandler application/x-httpd-php
+</FilesMatch>
+```
+
 * Save Apache configuration file:
 
 Press `Ctrl + O` then tap `Enter` then press `Ctrl + X`
