@@ -6,6 +6,12 @@
 pkg update
 ```
 
+## Upgrade Packages
+
+```bash
+pkg upgrade
+```
+
 ## List All Available Packages In Repositories 
 ```bash
 pkg list-all
