@@ -30,10 +30,10 @@ apachectl -v
 
 ## Apache Location
 
-### Apache Binary Location
+### Apache Binary Folder Location
 
 ```bash
-
+/data/data/com.termux/files/usr/bin/
 ```
 
 ### Apache Web Root Folder
