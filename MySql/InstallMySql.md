@@ -28,8 +28,7 @@ pkg list-installed | grep mariadb
 ```
 
 ### **Location**
-
-
+  
 General database path location:
 
 ```
