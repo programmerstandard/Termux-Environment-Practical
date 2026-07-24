@@ -92,8 +92,7 @@ Listen 8080
 * Fix MPM Conflict
 
 ```apache
-# LoadModule mpm_worker_module
-libexec/apache2/mod_mpm_worker.so
+# LoadModule mpm_worker_module libexec/apache2/mod_mpm_worker.so
 
 LoadModule mpm_prefork_module
 libexec/apache2/mod_mpm_prefork.so
