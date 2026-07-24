@@ -129,4 +129,13 @@ Type your password, Then Press enter.
 exit;
 ```
 
+**Notes**
 If you want to using MySql database, read in "Using MySql.md"
+
+## Check MySQL Running Process
+
+```bash
+ps -ef | grep mysqld
+```
+
+## Stop MySql
