@@ -41,7 +41,7 @@ make the following adjustment:
 
 * Fix MPM Conflict
 
-```ini
+```apache
 # LoadModule mpm_worker_module
 libexec/apache2/mod_mpm_worker.so
 
@@ -63,6 +63,14 @@ LoadModule php_module libexec/apache2/libphp.so
 <FilesMatch \.php$>
   SetHandler application/x-httpd-php
 </FilesMatch>
+```
+
+* Set Default Index
+
+```ini
+<IfModule dir_module>
+  DirectoryIndex index.php index.html
+</IfModule>
 ```
 
 * Save Apache configuration file:
