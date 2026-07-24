@@ -97,6 +97,17 @@ Listen 8080
 LoadModule mpm_prefork_module libexec/apache2/mod_mpm_prefork.so
 ```
 
+* Load mod_status
+
+```apache
+LoadModule status_module libexec/apache2/mod_status.so
+
+<Location "/server-status">
+  SetHandler server-status
+  Require local
+</Location>
+```
+
 Swipe to the bottom of module declarations and link the Termux PHP Library:
 
 * Load PHP Module
@@ -147,6 +158,12 @@ apachectl configtest
 
 ```bash
 apachectl start
+```
+
+## Verify Apache Is Running
+
+```bash
+apachectl status
 ```
 
 ## Install PHP Package
