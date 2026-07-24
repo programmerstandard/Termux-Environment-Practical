@@ -10,6 +10,12 @@ pkg update && pkg upgrade
 
 type `y` if needed.
 
+## Install Nano Text Editor
+
+```bash
+pkg install nano
+```
+
 ## Install Apache2 Package On Termux
 
 ```bash
