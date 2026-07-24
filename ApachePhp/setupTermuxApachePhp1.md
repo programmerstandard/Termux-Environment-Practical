@@ -22,6 +22,12 @@ pkg install nano
 pkg install lynx
 ```
 
+## Verify lynx Has Installed
+
+```bash
+lynx --version
+```
+
 ## Install Apache2 Package On Termux
 
 ```bash
@@ -52,6 +58,12 @@ $PREFIX/share/apache2/default-site/htdocs/
 
 ```bash
 $PREFIX/etc/apache2/httpd.conf
+```
+
+### Apache Log Folder Location
+
+```bash
+$PREFIX/var/log/apache2/
 ```
 
 ## Configure Apache2
