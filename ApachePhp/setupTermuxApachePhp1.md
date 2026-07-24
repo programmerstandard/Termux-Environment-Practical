@@ -37,6 +37,8 @@ nano httpd.conf
 
 make the following adjustment:
 
+* Fix MPM Conflict
+
 ```ini
 # LoadModule mpm_worker_module
 libexec/apache2/mod_mpm_worker.so
@@ -47,11 +49,13 @@ libexec/apache2/mod_mpm_prefork.so
 
 Swipe to the bottom of module declarations and link the Termux PHP Library:
 
+* Load PHP Module
+
 ```ini
 LoadModule php_module libexec/apache2/libphp.so
 ```
 
-Save Apache configuration file:
+* Save Apache configuration file:
 
 Press `Ctrl + O` then tap `Enter` then press `Ctrl + X`
 
