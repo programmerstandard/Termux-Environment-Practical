@@ -51,6 +51,10 @@ Swipe to the bottom of module declarations and link the Termux PHP Library:
 LoadModule php_module libexec/apache2/libphp.so
 ```
 
+Save Apache configuration file:
+
+Press `Ctrl + O` then tap `Enter` then press `Ctrl + X`
+
 ## Check The Apache Configuration
 
 ```
