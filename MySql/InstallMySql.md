@@ -21,13 +21,13 @@ pkg upgrade
 pkg install mariadb
 ```
 
-### Check Installed Package
+### **Check Installed Package*"
 
 ```
 pkg list-installed | grep mariadb
 ```
 
-### Location
+### **Location**
 
 General database path location:
 
