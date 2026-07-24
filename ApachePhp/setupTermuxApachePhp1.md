@@ -60,6 +60,12 @@ $PREFIX/share/apache2/default-site/htdocs/
 $PREFIX/etc/apache2/httpd.conf
 ```
 
+### Apache Modules Directory
+
+```bash
+$PREFIX/libexec/apache2/
+```
+
 ### Apache Log Folder Location
 
 ```bash
