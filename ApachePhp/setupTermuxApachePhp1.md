@@ -16,6 +16,12 @@ type `y` if needed.
 pkg install nano
 ```
 
+## Install lynx Text Web Browser Package
+
+```bash
+pkg install lynx
+```
+
 ## Install Apache2 Package On Termux
 
 ```bash
