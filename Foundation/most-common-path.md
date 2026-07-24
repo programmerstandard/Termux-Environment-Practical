@@ -4,7 +4,7 @@
 /data/data/com.termux/files/home
 ```
 
-Command ` ~/ ` (tilde slash) in Termux environment is a shell expansion for Home Directory path.
+Command ` ~/ ` (tilde slash) in Termux environment is a shell expansion for Home Directory Location.
 
 ## $PREFIX Location
 
@@ -28,7 +28,7 @@ pkg install termux-tools
 termux-setup-storage
 ```
 
-### Most Common Termux Setup Storage
+### Most Common Termux Setup Storage Path
 
 * ` ~/storage/shared/ `
 * ` ~/storage/downloads/ `
