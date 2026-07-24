@@ -83,6 +83,12 @@ nano httpd.conf
 
 make the following adjustment:
 
+# Change Server Port
+
+```bash
+Listen 8080
+```
+
 * Fix MPM Conflict
 
 ```apache
@@ -115,6 +121,18 @@ LoadModule php_module libexec/apache2/libphp.so
 <IfModule dir_module>
   DirectoryIndex index.php index.html
 </IfModule>
+```
+
+* Customizing Document Root
+
+```bash
+DocumentRoot "/data/data/com.termux/files/usr/share/apache2/default-site/htdocs
+
+<Directory "/data/data/com.termux/files/usr/share/apache2/default-site/htdocs">
+  Options Indexes FollowSymLinks
+  AllowOverride All
+  Require all granted
+</Directory>
 ```
 
 * Save Apache configuration file:
