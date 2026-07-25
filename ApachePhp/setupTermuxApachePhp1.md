@@ -195,4 +195,4 @@ pkg install php-apache
 
 ## Configure Xdebug
 
-## Install PMan
+## Install phpDocumentor
