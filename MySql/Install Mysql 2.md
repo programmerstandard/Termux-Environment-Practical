@@ -1,16 +1,16 @@
 # Install Mysql 2
 
-## Prepare The Configuration
-
-```
-termux-setup-storage
-```
-
 # Preparation
 
 ```
 apt update
 apt upgrade
+```
+
+## Prepare The Configuration
+
+```
+termux-setup-storage
 ```
 
 ## Install Package MySql ( "mariadb" ):
