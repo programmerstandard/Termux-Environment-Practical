@@ -42,6 +42,12 @@ pkg files <package-name>
 termux-change-repo
 ```
 
+## Install Package
+
+```bash
+pkg install <package-name>
+```
+
 **Notes**
 
 > Change `<package-name>` with your required package.
