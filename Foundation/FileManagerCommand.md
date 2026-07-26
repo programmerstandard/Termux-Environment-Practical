@@ -83,3 +83,9 @@ rm <file_name>
 ## View Contents Of A File
 
 For View Contents Of A File, read [viewFiles.md](viewFiles.md)
+
+## Create An Empty File
+
+```bash
+touch <file_name.extension>
+```
