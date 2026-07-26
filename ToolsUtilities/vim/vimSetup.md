@@ -31,3 +31,22 @@ vim <file-name.extension>
 * Insert Mode (i): Typing text.
 * Visual Mode (v): Selecting blocks of text.
 Command-Line Mode (:): Executing editor commands.
+
+# Basic Configuration Of vim
+
+```bash
+vim ~/.vimrc
+```
+
+Add one of these lines or all lines depends on your requirements:
+
+```vim
+syntax on
+set number 
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set autoindent
+```
+
+Save and exit with `:wq`
