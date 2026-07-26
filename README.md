@@ -20,5 +20,12 @@ help
 * Remember this repository only for development and maintenance servers!
 * You may found more updated informations and tutorials in other sources.
 
+## Learning Resources
+
+* https://en.wikipedia.org/
+* https://medium.com/
+* https://www.freecodecamp.org/
+* https://github.com/
+
 Feel free to give thankyou by send PayPal:
 ![PayPal donation please is valuable for operational](pp_p2p_my_qrcode_1778798034388.jpg " PayPal donation please is valuable for operational")
