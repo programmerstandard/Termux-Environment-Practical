@@ -1,0 +1,62 @@
+# Common Python .gitignore
+
+# Byte-compiled / Optimized Files
+
+__pycache__/
+*.py[cod]
+*.py
+
+# Virtual Environments
+
+venv/
+.venv/
+env/
+ENV/
+
+# Distribution / Packaging
+
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Installer logs
+
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit-test / coverage
+
+.coverage
+
+# Type checker
+
+.mypy_cache/
+
+# Linter
+
+.ruff_cache/
+
+# Jupyter Notebook
+
+.lpynb_checkpoints/
+
+# IDEs And Editors
+
+.vscode/
+
+# Operating System Files
+
+.DS_STORE
+
+# Environment Variables
+
+.env
+
+# Logs
+
+*.log
+
+# Local Database
+
+*.sqlite3
