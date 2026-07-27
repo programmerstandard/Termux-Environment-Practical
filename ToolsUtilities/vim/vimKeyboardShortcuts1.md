@@ -1,6 +1,6 @@
 
 
-Essential Vim Commands & Shortcuts
+## Essential Vim Commands & Shortcuts
 | Category | Action | Shortcut / Command |
 |---|---|---|
 | Modes | Switch to Insert Mode (start typing) | i |
