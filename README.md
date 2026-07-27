@@ -25,7 +25,10 @@ help
 * https://en.wikipedia.org/
 * https://medium.com/
 * https://www.freecodecamp.org/
-* https://github.com/
-
-Feel free to give thankyou by send PayPal:
+* https://github.com/  
+  
+<details>  
+  <summary>Feel free to give thankyou by send PayPal:</summary>
+  
 ![PayPal donation please is valuable for operational](pp_p2p_my_qrcode_1778798034388.jpg " PayPal donation please is valuable for operational")
+</details>
