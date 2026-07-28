@@ -31,9 +31,17 @@ pkg list-installed | grep <package-name>
 ```bash
 pkg show <package-name>
 ```
+
 ## Explore File List From A Package
+
 ```bash
 pkg files <package-name>
+```
+
+## Search Package By Query
+
+```bash
+pkg search <query>
 ```
 
 ## Change Repository
@@ -46,6 +54,24 @@ termux-change-repo
 
 ```bash
 pkg install <package-name>
+```
+
+## Remove All .deb Files From Cache
+
+```bash
+pkg clean
+```
+
+## Uninstall Package
+
+```bash
+pkg uninstall <package-name>
+```
+
+## Reinstall Package
+
+```
+pkg reinstall <package-name>
 ```
 
 **Notes**
