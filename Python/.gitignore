@@ -1,5 +1,9 @@
 # Common Python .gitignore
 
+# WARNING
+
+# Use only your .gitignore project requirements:
+
 # Byte-compiled / Optimized Files
 
 __pycache__/
