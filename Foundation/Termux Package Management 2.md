@@ -6,6 +6,12 @@
 apt list --upgradeable
 ```
 
+## Update Package Metadata
+
+```bash
+apt update
+```
+
 ## Verify The Installed Package
 
 ```bash
