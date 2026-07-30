@@ -62,6 +62,12 @@ pkg install <package-name>
 pkg clean
 ```
 
+## Cleaning Up Unused Dependencies
+
+```bash
+pkg autoclean
+```
+
 ## Uninstall Package
 
 ```bash
