@@ -184,6 +184,12 @@ pkg list-installed | grep php
 pkg install php-apache
 ```
 
+## Check PHP-Apache
+
+```bash
+pkg list-installed | grep php-apache
+```
+
 ## Install Composer
 
 ## Make Sure Composer Location
