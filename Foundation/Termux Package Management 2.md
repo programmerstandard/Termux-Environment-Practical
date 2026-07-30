@@ -12,6 +12,12 @@ apt list --upgradeable
 apt update
 ```
 
+## Upgrade Packages
+
+```bash
+apt upgrade
+```
+
 ## Verify The Installed Package
 
 ```bash
