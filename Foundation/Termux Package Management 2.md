@@ -18,6 +18,18 @@ apt update
 apt upgrade
 ```
 
+## List All Available Packages
+
+```bash
+apt list
+```
+
+## Verify All Installed Packages
+
+```bash
+apt list --manual-installed
+```
+
 ## Verify The Installed Package
 
 ```bash
