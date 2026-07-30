@@ -192,6 +192,11 @@ pkg list-installed | grep php-apache
 
 ## Install Composer
 
+```bash
+pkg install composer
+```
+
+
 ## Make Sure Composer Location
 
 
