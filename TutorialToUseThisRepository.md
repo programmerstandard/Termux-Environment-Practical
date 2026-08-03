@@ -4,6 +4,8 @@
 
 * Foundation
   https://github.com/programmerstandard/Termux-Environment-Practical/tree/main/Foundation
+* ToolsUtilities
+  https://github.com/programmerstandard/Termux-Environment-Practical/tree/main/ToolsUtilities
 
 ## For Python Developer And Python Lovers
 
