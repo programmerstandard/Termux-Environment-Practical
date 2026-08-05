@@ -2,8 +2,8 @@
 ```bash
 pkg update && pkg upgrade -y
 termux-setup-storage
-pkg search open-jdk
-pkg install openjdk 
+pkg search jdk
+pkg install jdk 
 ```
 ## Development
 
