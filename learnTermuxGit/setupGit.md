@@ -162,9 +162,3 @@ git config --global alias.br branch
 - SSH is generally the smoothest workflow in Termux. HTTPS works but using a Personal Access Token (PAT) is required for push operations.
 - Keep your private keys secure. Do not share them.
 
----
-
-If you want, I can:
-- Add examples for GitHub Enterprise or GitLab
-- Add a script to automate ssh-agent startup
-- Commit this file now to the repository
