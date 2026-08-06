@@ -23,6 +23,13 @@ emacs --version
 ```bash
 emacs -nw
 ```
+
+## Exit emacs
+
+```
+C-x C-c
+```
+
 ## Make Terminal Mode As Default
 
 ```bash
