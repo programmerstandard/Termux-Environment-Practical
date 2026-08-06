@@ -9,3 +9,9 @@ This tutorial to uninstall Java from [JavaDesktop/setupJavaInTermux1.md](setupJa
 ```bash
 proot-distro login ubuntu
 ```
+
+## List All Installed jdk Packages
+
+```bash
+apt list --manual-installed | grep jdk
+```
