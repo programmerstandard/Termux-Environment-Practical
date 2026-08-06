@@ -120,6 +120,14 @@ mkdir -p /root/.config/tigervnc
 vncserver -localhost
 ```
 
+## Check Running vncserver Display Variable
+
+```bash
+ps aux | grep -E 'vnc|tigervnc'
+```
+
+Look at the **COMMAND** column, found :<number>. For example:1.
+
 ## Set The Display Variable
 
 ```
