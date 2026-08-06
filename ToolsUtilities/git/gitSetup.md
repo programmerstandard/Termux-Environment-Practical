@@ -3,13 +3,14 @@
 ## Refresh Packages And Repositories
 
 ```bash
-pkg update && pkg upgrade -y
+apt update && apt upgrade -y
+
 ```
 
 ## Install Git
 
 ```bash
-pkg install git
+apt install git
 ```
 
 ## Verify Git Installation
