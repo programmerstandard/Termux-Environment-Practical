@@ -149,3 +149,15 @@ You can safely clear the session locks by running:
 rm -rf /tmp/.X11-unix/X1
 rm -rf /tmp/.X1-lock
 ```
+
+## To Logout From proot Ubuntu
+
+```bash
+exit
+```
+
+## To Clear proot Cache 
+
+```bash
+proot-distro clear-cache
+```
