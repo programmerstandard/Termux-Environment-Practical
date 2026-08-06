@@ -126,7 +126,19 @@ vncserver -localhost
 ps aux | grep -E 'vnc|tigervnc'
 ```
 
-Look at the **COMMAND** column, found :<number>. For example:1.
+Look at the **COMMAND** column, found :`<number>`. For example:1.
+
+## Check Display Number Of Environment Variable
+
+```bash
+echo $DISPLAY
+```
+
+Example Of Expected Output:
+
+```bash
+:1
+```
 
 ## Set The Display Variable
 
