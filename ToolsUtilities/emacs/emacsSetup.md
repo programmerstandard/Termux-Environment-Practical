@@ -34,3 +34,9 @@ or
 ```bash
 echo "alias emacs='emacs -nw' > ~/.zshrc
 ```
+
+## Refresh Your bash Configuration
+
+```bash
+source ~/.bashrc
+```
