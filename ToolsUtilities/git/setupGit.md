@@ -47,13 +47,23 @@ git config --global user.email "your.email@example.com"
 
 ---
 
-## 4. Verify Your openssh
+## 4. To Verify git Configuration
+
+```bash
+git config --list
+```
+
+---
+
+## 5. Verify Your openssh
 
 ```bash
 pkg list-installed | grep -E ssh
 ```
 
-## 5. Generate an SSH key (recommended for GitHub)
+---
+
+## 6. Generate an SSH key (recommended for GitHub)
 
 Generate an ED25519 key (recommended):
 
@@ -71,7 +81,7 @@ When prompted, accept the default file location (~/.ssh/id_ed25519) and optional
 
 ---
 
-## 6. Start ssh-agent and add your key
+## 7. Start ssh-agent and add your key
 
 Start the agent and add the private key:
 
@@ -86,7 +96,7 @@ To make the agent available in future shells, you can add the eval line to ~/.pr
 
 ---
 
-## 7. Fix SSH directory and file permissions
+## 8. Fix SSH directory and file permissions
 
 Incorrect permissions often cause "Permission denied (publickey)" errors. Set strict permissions:
 
@@ -98,7 +108,7 @@ chmod 644 ~/.ssh/id_ed25519.pub
 
 ---
 
-## 8. Add the public key to GitHub
+## 9. Add the public key to GitHub
 
 Copy the public key and paste it into GitHub -> Settings -> SSH and GPG keys -> New SSH key:
 
@@ -110,7 +120,7 @@ Then paste the output into GitHub.
 
 ---
 
-## 9. Test the SSH connection
+## 10. Test the SSH connection
 
 Verify you can connect to GitHub:
 
@@ -126,7 +136,7 @@ ssh -vT git@github.com
 
 ---
 
-## 10. Clone, push, and pull
+## 11. Clone, push, and pull
 
 Clone using SSH (recommended):
 
@@ -148,7 +158,7 @@ git config --global credential.helper store
 
 ---
 
-## 11. Useful Git aliases (optional)
+## Useful Git aliases (optional)
 
 ```bash
 git config --global alias.st status
