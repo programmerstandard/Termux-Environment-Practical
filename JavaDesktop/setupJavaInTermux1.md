@@ -126,7 +126,7 @@ vncserver -localhost
 ps aux | grep -E 'vnc|tigervnc'
 ```
 
-Look at the **COMMAND** column, found :`<number>`. For example:1.
+Look at the **COMMAND** column, found :`<number>`. For example :1.
 
 ## Check Display Number Of Environment Variable
 
@@ -159,7 +159,7 @@ vncserver -kill :1
 Expected Output :
 
 ```bash
-Killing Xtigervnc
+Killing Xtigervnc process ID 1234... success!
 ```
 
 If the process stuck, you can also stop it by finding the process ID and forcing it to quit:
