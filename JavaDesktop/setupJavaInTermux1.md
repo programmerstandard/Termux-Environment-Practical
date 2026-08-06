@@ -52,6 +52,8 @@ proot-distro login ubuntu
 cat /etc/os-release
 ```
 
+If you are not login in Termux Ubuntu, it will display "No such file or directory".
+
 or type this following command:
 
 ```bash
