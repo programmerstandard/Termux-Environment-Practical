@@ -10,7 +10,8 @@ Use Termux's package manager (pkg is an alias for apt in Termux):
 
 ```bash
 pkg update && pkg upgrade -y
-pkg install git openssh -y
+pkg install git -y
+pkg openssh -y
 ```
 
 If you plan to use Termux with Android storage:
@@ -21,7 +22,21 @@ termux-setup-storage
 
 ---
 
-## 2. Configure your Git identity
+## 2. Verify git Is Installed:
+
+```bash
+git --version
+```
+
+or you can use this step:
+
+```bash
+pkg list-installed | grep git
+```
+
+---
+
+## 3. Configure Your git Identity
 
 Set your name and email (used in commits):
 
@@ -30,15 +45,15 @@ git config --global user.name "Your Name"
 git config --global user.email "your.email@example.com"
 ```
 
-Verify Git is installed:
-
-```bash
-git --version
-```
-
 ---
 
-## 3. Generate an SSH key (recommended for GitHub)
+## 4. Verify Your openssh
+
+```bash
+pkg list-installed | grep -E ssh
+```
+
+## 5. Generate an SSH key (recommended for GitHub)
 
 Generate an ED25519 key (recommended):
 
@@ -56,7 +71,7 @@ When prompted, accept the default file location (~/.ssh/id_ed25519) and optional
 
 ---
 
-## 4. Start ssh-agent and add your key
+## 6. Start ssh-agent and add your key
 
 Start the agent and add the private key:
 
@@ -71,7 +86,7 @@ To make the agent available in future shells, you can add the eval line to ~/.pr
 
 ---
 
-## 5. Fix SSH directory and file permissions
+## 7. Fix SSH directory and file permissions
 
 Incorrect permissions often cause "Permission denied (publickey)" errors. Set strict permissions:
 
@@ -83,7 +98,7 @@ chmod 644 ~/.ssh/id_ed25519.pub
 
 ---
 
-## 6. Add the public key to GitHub
+## 8. Add the public key to GitHub
 
 Copy the public key and paste it into GitHub -> Settings -> SSH and GPG keys -> New SSH key:
 
@@ -95,7 +110,7 @@ Then paste the output into GitHub.
 
 ---
 
-## 7. Test the SSH connection
+## 9. Test the SSH connection
 
 Verify you can connect to GitHub:
 
@@ -111,7 +126,7 @@ ssh -vT git@github.com
 
 ---
 
-## 8. Clone, push, and pull
+## 10. Clone, push, and pull
 
 Clone using SSH (recommended):
 
@@ -133,7 +148,7 @@ git config --global credential.helper store
 
 ---
 
-## 9. Useful Git aliases (optional)
+## 11. Useful Git aliases (optional)
 
 ```bash
 git config --global alias.st status
@@ -144,7 +159,7 @@ git config --global alias.br branch
 
 ---
 
-## 10. Troubleshooting
+## Troubleshooting
 
 - "Permission denied (publickey)":
   - Ensure the public key is on GitHub.
@@ -157,7 +172,7 @@ git config --global alias.br branch
 
 ---
 
-## 11. Notes
+## Notes
 
 - SSH is generally the smoothest workflow in Termux. HTTPS works but using a Personal Access Token (PAT) is required for push operations.
 - Keep your private keys secure. Do not share them.
