@@ -136,6 +136,12 @@ If your VNC Server running on different display number, change `:1` to other num
 vncserver -kill :1
 ```
 
+Expected Output :
+
+```bash
+Killing Xtigervnc
+```
+
 If the process stuck, you can also stop it by finding the process ID and forcing it to quit:
 
 ```bash
