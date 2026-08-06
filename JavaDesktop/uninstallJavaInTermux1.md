@@ -15,3 +15,18 @@ proot-distro login ubuntu
 ```bash
 apt list --manual-installed | grep jdk
 ```
+
+## Remove Java
+
+```bash
+apt purge openjdk-8-jdk 
+```
+
+* Change the number 8 to other version depends on your Java version.
+* Type y if need it.
+
+## Remove Unused Dependencies
+
+```bash
+apt autoremove 
+```
