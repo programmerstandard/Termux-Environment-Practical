@@ -1,11 +1,14 @@
 
 
+## Type ps Command In Termux
 
+```bash
+ps aux
+```
 
 ## Example Output Of ps
 
-USER|PID|%CPU|%MEM|VSZ|TTY|STAT|
-START|TIME|COMMAND|
--|-|-|-|-|-|-|-|-|-|
-u0_a1|1234|0.1|
+USER|USER|%CPU|%MEM|VSZ|TTY|STAT|START|TIME|COMMAND|
+-|-|-|--|--|--|--|--|--|--|
+u0_a112344|0.1|
 root|
