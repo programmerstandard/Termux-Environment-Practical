@@ -83,4 +83,5 @@ pkg reinstall <package-name>
 **Notes**
 
 > Change `<package-name>` with your required package.
+> 
 > Type y if need it after type the above commands.
