@@ -7,5 +7,5 @@
 USER|PID|%CPU|%MEM|VSZ|TTY|STAT|
 START|TIME|COMMAND|
 -|-|-|-|-|-|-|-|-|-|
-u0_a1|1234|0.1
+u0_a1|1234|0.1|
 root|
