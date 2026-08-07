@@ -1,7 +1,7 @@
 # List Of PHP Module To Verify :
 
 * libxml2 for phpDocumentor.
-* php-apache for running PHP in Apache.
+* libphp.so Module in php-apache package for running PHP in Apache.
 * php-sodium for PHPmyadmin.
 
 ## To Verify Module In PHP
