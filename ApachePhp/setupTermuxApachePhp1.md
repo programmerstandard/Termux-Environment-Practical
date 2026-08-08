@@ -196,6 +196,12 @@ pkg list-installed | grep php-apache
 pkg install curl
 ```
 
+## Verify curl Installed 
+
+```bash
+curl --version 
+```
+
 ## Install Composer Package 
 
 ```bash
