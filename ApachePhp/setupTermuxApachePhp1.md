@@ -222,7 +222,7 @@ If the Composer location not on `$PREFIX/bin/composer” move the `composer.phar
 mv composer.phar $PREFIX/bin/composer
 ```
 
-## Make composer Exectable
+## Make composer Executable 
 
 ```bash
 chmod +x $PREFIX/bin/composer 
