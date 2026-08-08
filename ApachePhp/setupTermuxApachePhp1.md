@@ -1,4 +1,4 @@
-0# Install Apache, PHP, Composer 1
+# Install Apache, PHP, Composer 1
 
 Default Apache multi processing module (mpm_worker)
 
