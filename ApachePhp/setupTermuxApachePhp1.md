@@ -1,4 +1,4 @@
-# Install Apache, PHP, Composer 1
+0# Install Apache, PHP, Composer 1
 
 Default Apache multi processing module (mpm_worker)
 
@@ -208,8 +208,25 @@ curl --version
 curl http://getcomposer.org/installer | php
 ```
 
+# Find out current location 
+
+```bash
+pwd
+```
+
 ## Make Sure Composer Location
 
+If the Composer location not on `$PREFIX/bin/composer” move the `composer.phar` to `$PREFIX/bin/composer`.
+
+```bash
+mv composer.phar $PREFIX/bin/composer
+```
+
+## Make composer Exectable
+
+```bash
+chmod +x $PREFIX/bin/composer 
+```
 
 ## Install PHPUnit
 
