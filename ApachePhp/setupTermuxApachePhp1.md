@@ -205,7 +205,7 @@ curl --version
 ## Install Composer Package 
 
 ```bash
-pkg install composer
+curl http://getcomposer.org/installer | php
 ```
 
 ## Make Sure Composer Location
