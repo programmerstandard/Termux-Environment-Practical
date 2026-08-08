@@ -89,7 +89,7 @@ make the following adjustment:
 Listen 8080
 ```
 
-* Fix MPM Conflict
+* Fix MPM Problem 
 
 ```apache
 # LoadModule mpm_worker_module libexec/apache2/mod_mpm_worker.so
@@ -190,12 +190,17 @@ pkg install php-apache
 pkg list-installed | grep php-apache
 ```
 
-## Install Composer
+## Install curl Package
+
+```bash
+pkg install curl
+```
+
+## Install Composer Package 
 
 ```bash
 pkg install composer
 ```
-
 
 ## Make Sure Composer Location
 
