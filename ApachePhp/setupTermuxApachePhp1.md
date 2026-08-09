@@ -234,6 +234,12 @@ ls $PREFIX/bin/composer
 chmod +x $PREFIX/bin/composer 
 ```
 
+## Verify composer Is Installed
+
+```bash
+composer about
+```
+
 ## Install PHPUnit
 
 ## Install Xdebug
