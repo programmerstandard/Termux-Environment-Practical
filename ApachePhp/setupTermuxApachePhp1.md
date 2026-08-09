@@ -208,7 +208,7 @@ curl --version
 curl http://getcomposer.org/installer | php
 ```
 
-# Find out current location 
+## Find out current location 
 
 ```bash
 pwd
