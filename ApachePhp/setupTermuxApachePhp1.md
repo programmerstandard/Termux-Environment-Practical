@@ -222,6 +222,12 @@ If the Composer location not on `$PREFIX/bin/composer” move the `composer.phar
 mv composer.phar $PREFIX/bin/composer
 ```
 
+Check Composer is on the right path
+
+```bash
+ls $PREFIX/bin/composer
+```
+
 ## Make composer Executable 
 
 ```bash
