@@ -1,3 +1,7 @@
+## Notes
+
+* Comment with # ( hash mark ) if not your project requirements or task requirements.
+* Remove # ( hash mark ) if your project tools doesn't require to proceed it.
 
 ```gitignore
 # Environment Configuration Files 
@@ -12,10 +16,16 @@ config.local.php
 
 /vendor/
 
-# Apache
+# Apache & Web Server
 
 logs/
 
-#m
+# MySql & Database Files
 
+*.sql
+*.sql.gz
+*.sqlite
+*.db
+/dump/
+/backups/
 ```
