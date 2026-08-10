@@ -1,5 +1,6 @@
 ## Notes
 
+* PHP Gitignore For WordPress.
 * Comment with # ( hash mark ) if not your project requirements or task requirements.
 * Remove # ( hash mark ) if your project tools doesn't require to proceed it.
 
