@@ -34,4 +34,8 @@ access_log
 *.db
 /dump/
 /backups/
+
+# Operating System
+
+
 ```
