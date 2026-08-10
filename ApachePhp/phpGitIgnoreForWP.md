@@ -24,7 +24,8 @@ logs/
 *.log
 error_log
 access_log
-
+error.log
+access.log
 
 # MySql & Database Files
 
@@ -35,7 +36,17 @@ access_log
 /dump/
 /backups/
 
+# Application Storage, Uploads And Cache
+
+/cache/
+/tmp/
+/temp/
+/sessions/
+/uploads/
+
 # Operating System
 
-
+.DS_STORE
+Thumbs.db
+*.bak
 ```
