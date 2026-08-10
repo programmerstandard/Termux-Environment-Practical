@@ -1,7 +1,7 @@
 ## Notes
 
-* PHP Gitignore For WordPress.
-* Comment with # ( hash mark ) if not your project requirements or task requirements.
+* PHP Gitignore For Standard WordPress Development.
+* Comment with # ( hash mark ) if your project requirements or task requirements need it.
 * Remove # ( hash mark ) if your project tools doesn't require to proceed it.
 
 ```gitignore
@@ -17,6 +17,7 @@ config.local.php
 
 /vendor/
 composer.lock
+composer.phar
 
 # Apache & Web Server
 
@@ -36,6 +37,18 @@ access.log
 /dump/
 /backups/
 
+# WordPress
+
+wp-config.php
+wp-config-sample.php
+wp-content/
+wp-content/uploads
+wp-content/blogs.dir
+wp-content/upgrade
+wp-content/backup-db
+wp-content/plugins/hello.php
+wp-content/themes/twenty*/
+
 # Application Storage, Uploads And Cache
 
 /cache/
@@ -47,6 +60,9 @@ access.log
 # Operating System
 
 .DS_STORE
+.AppleDouble
 Thumbs.db
+Thumbs.db:encryptable
 *.bak
+Desktop.ini
 ```
