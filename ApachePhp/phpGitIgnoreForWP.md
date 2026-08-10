@@ -16,10 +16,15 @@ config.local.php
 # Composer & Dependencies
 
 /vendor/
+composer.lock
 
 # Apache & Web Server
 
 logs/
+*.log
+error_log
+access_log
+
 
 # MySql & Database Files
 
