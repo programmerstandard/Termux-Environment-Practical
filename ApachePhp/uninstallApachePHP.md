@@ -9,5 +9,5 @@ apachectl status
 Expected Output
 
 ```bash
-Alert:! (Unable to connect to remote host 
+Alert:! (Unable to connect to remote host)
 ```
