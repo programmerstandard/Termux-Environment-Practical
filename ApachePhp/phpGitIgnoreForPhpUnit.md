@@ -2,7 +2,10 @@
 
 ```git
 # Tools
-
-/. idea
+*.swp
+*.swo
+.idea/
+.vscode/
+*.sublime-*
 
 ```
