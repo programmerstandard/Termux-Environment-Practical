@@ -1,4 +1,4 @@
-# PHPUnit Testing Framework
+# PHPUnit Testing Framework gitignore
 
 ```git
 # Tools
