@@ -16,3 +16,9 @@ whoami
 ```bash
 uname -o
 ```
+
+## Clear Shell Command Cache
+
+```bash
+hash -r
+```
