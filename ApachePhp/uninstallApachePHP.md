@@ -15,7 +15,23 @@ Alert:! (Unable to connect to remote host)
 ## Dry Run Uninstall PHP Package
 
 ```bash
-pkg uninstall -s php
+pkg uninstall --dry-run php
 ```
 
+## Uninstall PHP Package
 
+```bash
+pkg uninstall php
+```
+
+## Dry Run Complete Purge PHP Package 
+
+```bash
+apt purge -s php
+```
+
+## Removes PHP + System Configs
+
+```bash
+apt purge php
+```
