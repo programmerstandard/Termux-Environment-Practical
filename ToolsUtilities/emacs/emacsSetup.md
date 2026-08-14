@@ -33,13 +33,13 @@ C-x C-c
 ## Make Terminal Mode As Default
 
 ```bash
-echo "alias emacs='emacs -nw' > ~/.bashrc
+echo "alias emacs='emacs -nw'" > ~/.bashrc
 ```
 
 or
 
 ```bash
-echo "alias emacs='emacs -nw' > ~/.zshrc
+echo "alias emacs='emacs -nw'" > ~/.zshrc
 ```
 
 ## Refresh Your bash Configuration
