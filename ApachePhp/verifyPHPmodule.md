@@ -3,7 +3,7 @@
 * libxml2 for phpDocumentor.
 * libphp.so Module in php-apache package for running PHP in Apache.
 * php-sodium for PHPmyadmin.
-* mysqli, mysqlnd, pdo_mysql for mysql.
+* mysqli, mysqlnd, pdo_mysql for php-mysqli package.
 
 
 ## To Verify Module In PHP
