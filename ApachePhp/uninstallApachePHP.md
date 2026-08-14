@@ -35,3 +35,10 @@ apt purge -s php
 ```bash
 apt purge php
 ```
+
+## Preview autoremove Packages
+
+```bash
+apt autoremove --dry-run
+```
+
