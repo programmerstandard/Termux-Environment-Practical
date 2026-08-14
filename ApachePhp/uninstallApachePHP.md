@@ -6,8 +6,16 @@
 apachectl status
 ```
 
-Expected Output
+## Expected Output
 
 ```bash
 Alert:! (Unable to connect to remote host)
 ```
+
+## Dry Run Uninstall PHP Package
+
+```bash
+pkg uninstall -s php
+```
+
+
