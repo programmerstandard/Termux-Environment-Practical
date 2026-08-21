@@ -22,10 +22,19 @@ help
 
 ## Learning Resources
 
+### General
 * https://en.wikipedia.org/
 * https://medium.com/
 * https://www.freecodecamp.org/
+* https://devdocs.io/
+* https://developers.google.com/
+* https://developer.apple.com/documentation
 * https://github.com/  
+
+### Browser And Web Development 
+* https://developer.chrome.com/docs
+* https://developer.mozilla.org/en-US/
+* https://developer.wordpress.org/
   
 <details>  
   <summary>Feel free to give thankyou by send PayPal:</summary>
