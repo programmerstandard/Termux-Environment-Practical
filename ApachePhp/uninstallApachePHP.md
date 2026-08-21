@@ -42,3 +42,20 @@ apt purge php
 apt autoremove --dry-run
 ```
 
+## Preview clean Package Files
+
+```bash
+apt clean --dry-run php
+```
+
+## To Check Package Folder Space
+
+```bash
+du -sh $PREFIX/var/cache/apt/archives
+```
+
+## clean Package Files
+
+```bash
+apt clean php
+```
