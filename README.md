@@ -28,14 +28,20 @@ help
 * https://www.freecodecamp.org/
 * https://devdocs.io/
 * https://developers.google.com/
-* https://developer.apple.com/documentation
+* https://developer.apple.com/dokumentasin
+* https://www.ibm.com/
 * https://github.com/  
 
 ### Browser And Web Development 
 * https://developer.chrome.com/docs
 * https://developer.mozilla.org/en-US/
 * https://developer.wordpress.org/
-  
+
+### Others
+* https://github.com/jsdoc/jsdoc
+* https://peps.python.org/pep-0257/
+* https://github.com/phpdocumentor/phpdocumentor
+
 <details>  
   <summary>Feel free to give thankyou by send PayPal:</summary>
   
