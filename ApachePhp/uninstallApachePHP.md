@@ -1,5 +1,8 @@
 # Uninstall Apache And PHP
 
+## **Notes**
+> this uninstall tutorial is accompanied by https://github.com/programmerstandard/Termux-Environment-Practical/blob/main/ApachePhp/setupTermuxApachePhp1.md
+
 ## Check Apache Running Status
 
 ```bash
