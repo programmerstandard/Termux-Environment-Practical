@@ -24,3 +24,9 @@ curl http://www.example.com
 ```bash
 cUrl -o myfile.zip http://www.example.com
 ```
+
+## Check Website Server Status 
+
+```bash
+curl -I https://www.google.com/
+```
