@@ -1,8 +1,10 @@
 # List Of Sample PHP Module To Verify :
 
-* libxml2 for phpDocumentor.
+* libxml2 essential for phpDocumentor.
 * libphp.so Module in php-apache package for running PHP in Apache.
-* php-sodium for PHPmyadmin.
+* php-sodium essential for PHPmyadmin.
+* php-mbstring essential for UTF-8.
+* php-intl essential for internationalization.
 * mysqli, mysqlnd, pdo_mysql for php-mysqli package.
 
 
