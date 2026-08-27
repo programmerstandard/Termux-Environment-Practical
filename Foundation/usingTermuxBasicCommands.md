@@ -22,3 +22,9 @@ uname -o
 ```bash
 hash -r
 ```
+
+## Found Command Path Location
+
+```bash
+type -a <command-name>
+```
