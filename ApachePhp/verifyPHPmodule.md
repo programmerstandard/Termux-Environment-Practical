@@ -6,7 +6,7 @@
 * mysqli, mysqlnd, pdo_mysql for php-mysqli package.
 
 
-## To Verify Module In PHP
+## To Verify Modules In PHP Is Installed
 
 ```php
 php -m | grep -E "<module_name_1>|<module_name_2>|...|<module_name_n>"
@@ -23,3 +23,4 @@ php -m | grep -i keyword
 php -m | grep -i mysql
 ```
 
+If PHP module is not installed, there will be empty output.
