@@ -11,7 +11,7 @@ A way to get help, by typing:
 help read
 ```
 
-#s Example 2
+## Example 2
 
 ```bash
 read --help
