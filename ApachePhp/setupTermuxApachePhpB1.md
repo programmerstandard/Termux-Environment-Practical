@@ -16,3 +16,11 @@ type `y` if needed.
 apt install --dry-run nano
 apt install nano
 ```
+
+## Install Apache Package
+
+```bash
+apt install --dry-run apache2
+apt install apache2
+```
+
