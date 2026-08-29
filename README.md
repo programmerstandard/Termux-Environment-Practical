@@ -43,7 +43,7 @@ help
 * https://github.com/phpdocumentor/phpdocumentor
 
 <details>  
-  <summary>Feel free to give thankyou by send PayPal:</summary>
+  <summary>Feel free to give thank you by send PayPal:</summary>
   
 ![PayPal donation please is valuable for operational](pp_p2p_my_qrcode_1778798034388.jpg " PayPal donation please is valuable for operational")
 </details>
