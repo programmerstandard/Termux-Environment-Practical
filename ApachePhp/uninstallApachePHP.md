@@ -17,7 +17,7 @@ Alert:! (Unable to connect to remote host)
 
 The above output means the server is stopped.
 
-## Dry Run phpmyadmib Package
+## Dry Run phpmyadmin Package
 
 ```bash
 pkg uninstall --dry-run phpmyadmin
