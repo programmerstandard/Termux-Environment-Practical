@@ -42,6 +42,12 @@ apt list | grep <package-name>
 apt install <package-name> --dry-run
 ```
 
+## Check Package Size Before Installing
+
+```bash
+apt show <package-name> | grep Size
+```
+
 **Notes**
 
 > Change `<package-name>` with your required package.
