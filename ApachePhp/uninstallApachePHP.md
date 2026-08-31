@@ -15,6 +15,15 @@ apachectl status
 Alert:! (Unable to connect to remote host)
 ```
 
+The above output means the server is stopped.
+
+## Dry Run phpmyadmib Package
+
+```bash
+pkg uninstall --dry-run phpmyadmin
+```
+
+
 ## Dry Run Uninstall PHP Package
 
 ```bash
