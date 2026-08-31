@@ -16,8 +16,10 @@ help
 
 ## Notes
 
+* This repository for Android Smartphone only.
 * Google Play Store versions of Termux are restricted and may not support full functionality. Use Termux from F-Droid instead.
-* Remember this repository only for development and maintenance servers!
+* Suggest to use GBoard soft keyboard.
+* Remember this repository only for software development and maintenance servers!
 * You may found more updated informations and tutorials in other sources below 👇.
 
 ## Learning Resources
