@@ -247,3 +247,24 @@ composer about
 ## Configure Xdebug
 
 ## Install phpDocumentor
+
+### Prerequisite
+
+```bash
+pkg list-installed | grep libxml2
+pkg list-installed | grep libxslt
+```
+
+If expected output is similar like below:
+
+```bash
+... [installed...]
+```
+
+Skip this following command:
+
+```bash
+pkg install libxml2 libxslt
+```
+
+Type `y` if need it.
