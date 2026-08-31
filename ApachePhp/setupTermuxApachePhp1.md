@@ -249,6 +249,23 @@ pkg list-installed | grep git
 pkg list-installed | grep unzip 
 ```
 
+* Tap Enter for each line.
+* If expected output is similar like below:
+
+```bash
+... [installed...]
+```
+
+Skip this following step:
+
+### Install git And unzip Package
+
+```bash
+pkg install git unzip
+```
+
+Type `y` if need it.
+
 ## Install Xdebug
 
 ## Configure Xdebug
@@ -261,8 +278,8 @@ pkg list-installed | grep unzip
 pkg list-installed | grep libxml2
 pkg list-installed | grep libxslt
 ```
-
-If expected output is similar like below:
+* Tap Enter for each line.
+* If expected output is similar like below:
 
 ```bash
 ... [installed...]
