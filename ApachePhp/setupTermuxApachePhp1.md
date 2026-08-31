@@ -242,6 +242,13 @@ composer about
 
 ## Install PHPUnit
 
+### Prerequisite
+
+```bash
+pkg list-installed | grep git
+pkg list-installed | grep unzip 
+```
+
 ## Install Xdebug
 
 ## Configure Xdebug
@@ -261,7 +268,9 @@ If expected output is similar like below:
 ... [installed...]
 ```
 
-Skip this following command:
+Skip this following step:
+
+### Install libxml2 And libxslt Package
 
 ```bash
 pkg install libxml2 libxslt
