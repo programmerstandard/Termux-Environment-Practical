@@ -324,7 +324,7 @@ pkg show make clang php-pear | grep Size
 ```bash
 pkg install --dry-run make
 pkg install --dry-run clang
-0kg install --dry-run php-pear
+pkg install --dry-run php-pear
 ```
 
 ### Install Packages
