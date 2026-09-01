@@ -8,10 +8,20 @@ Command ` ~/ ` (tilde slash) in Termux environment is a shell expansion for Home
 
 ## $PREFIX Location
 
-
 ```bash
 /data/data/com.termux/files/usr
 ```
+
+### Most Common $PREFIX Path
+
+* Binary Executable Files
+  ```bash
+  $PREFIX/bin/
+  ```
+* Shared Files
+  ```bash
+  $PREFIX/share
+  ```
 
 ## Shared Storage Location
 
