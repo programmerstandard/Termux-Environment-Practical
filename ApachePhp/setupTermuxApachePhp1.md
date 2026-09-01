@@ -335,6 +335,12 @@ pkg install make clang php-pear
 
 Type -y if need it.
 
+### Ensure PEAR Channels Are Updated 
+
+```bash
+pear update-channels
+```
+
 ### Install Xdebug Via PECL
 
 ```bash
