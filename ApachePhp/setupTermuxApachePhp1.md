@@ -214,13 +214,16 @@ curl http://getcomposer.org/installer | php
 pwd
 ```
 
-## Make Sure Composer Location
+Make Sure Composer Location is on `$PREFIX/bin/composer” 
 
-If the Composer location not on `$PREFIX/bin/composer” move the `composer.phar` to `$PREFIX/bin/composer`.
+## Move The composer.phar If Need It
+
+Move the `composer.phar` to `$PREFIX/bin/composer` if need it.
 
 ```bash
 mv composer.phar $PREFIX/bin/composer
 ```
+## Check Composer Location 
 
 Check Composer is on the right path
 
