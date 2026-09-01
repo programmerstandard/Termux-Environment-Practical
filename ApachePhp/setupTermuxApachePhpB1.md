@@ -30,3 +30,34 @@ apt install apache2
 httpd -v
 ```
 
+### Apache Location 
+
+#### Apache Binary Folder Location
+
+```bash
+/data/data/com.termux/files/usr/bin/
+```
+
+#### Apache Web Root Folder
+
+```bash
+/data/data/com.termux/files/usr/share/apache2/default-site/htdocs/
+```
+
+#### Apache Configuration File Location
+
+```bash
+/data/data/com.termux/files/usr/etc/apache2/httpd.conf
+```
+
+#### Apache Modules Directory
+
+```bash
+/data/data/com.termux/files/usr/libexec/apache2/
+```
+
+#### Apache Log Folder Location
+
+```bash
+/data/data/com.termux/files/usr/var/log/apache2/
+```
