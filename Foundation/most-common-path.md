@@ -20,8 +20,17 @@ Command ` ~/ ` (tilde slash) in Termux environment is a shell expansion for Home
   ```
 * Shared Files
   ```bash
-  $PREFIX/share
+  $PREFIX/share/
   ```
+* Configuration Files
+  ```bash
+  $PREFIX/etc/
+  ```
+* Plugins, Modules Path
+  ```bash
+  $PREFIX/libexec/
+  ```
+
 
 ## Shared Storage Location
 
