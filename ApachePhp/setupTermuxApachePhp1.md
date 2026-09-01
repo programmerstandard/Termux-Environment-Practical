@@ -302,7 +302,7 @@ source ~/.bashrc
 ### Verify The Shell Configuration 
 
 ```bash
-echi $PATH
+echo $PATH
 ```
 
 ### Verify Global Installation
