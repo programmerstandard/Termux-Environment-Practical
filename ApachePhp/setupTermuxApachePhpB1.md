@@ -24,3 +24,9 @@ apt install --dry-run apache2
 apt install apache2
 ```
 
+### Check Apache Has Installed 
+
+```bash
+httpd -v
+```
+
