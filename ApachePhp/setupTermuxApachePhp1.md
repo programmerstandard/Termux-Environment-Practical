@@ -22,7 +22,7 @@ pkg install nano
 pkg install lynx
 ```
 
-## Verify lynx Has Installed
+### Verify lynx Has Installed
 
 ```bash
 lynx --version
@@ -335,7 +335,7 @@ pkg install make clang php-pear
 
 Type -y if need it.
 
-### Install Xdebug V8a PECL
+### Install Xdebug Via PECL
 
 ```bash
 pecl install xdebug
@@ -389,8 +389,9 @@ php -v
 pkg list-installed | grep libxml2
 pkg list-installed | grep libxslt
 ```
+
 * Tap Enter for each line.
-¹$x!* If expected output is similar like below:
+* If expected output is similar like below:
 
 ```bash
 ... [installed...]
