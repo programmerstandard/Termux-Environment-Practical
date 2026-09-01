@@ -339,3 +339,33 @@ pkg install libxml2 libxslt
 ```
 
 Type `y` if need it.
+
+## Check The Required Extensions Are Active
+
+```bash
+php -m | grep "xml|dom|intl|mbstring"
+```
+
+## Download Standalone .phar Binary 
+
+```bash
+curl -LO https://phpdoc.org/phpDocumentor.phar
+```
+
+## Make phpDocumentor.phar Executable 
+
+```bash
+chmod +x phpDocumentor.phar
+```
+
+## Move To Your Local Binary Directory
+
+```bash
+mv phpDocumentor.phar $PREFIX/bin/phpdoc
+```
+
+## Verify phpDocumentor Is Installed 
+
+```bash
+phpdoc --version
+```
