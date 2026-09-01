@@ -287,6 +287,12 @@ nano ~/.bashrc
 export PATH="$HOME/.composer/vendor/bin:$PATH"
 ```
 
+### Save File And Exit Nano
+
+1. Tap Ctrl+O
+2. Tap Enter
+3. Tap Ctrl+X
+
 ### Reload Shell Configuration 
 
 ```bash
