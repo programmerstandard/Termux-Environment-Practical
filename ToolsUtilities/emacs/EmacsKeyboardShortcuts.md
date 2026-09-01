@@ -10,5 +10,5 @@
 
 ## Notes
 
-* C- is Control ( Ctl }.
+* C- is Control ( Ctl ).
 * M- is Alternate ( Alt ).
