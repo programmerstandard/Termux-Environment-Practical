@@ -30,10 +30,12 @@ Command ` ~/ ` (tilde slash) in Termux environment is a shell expansion for Home
   ```bash
   $PREFIX/libexec/
   ```
-
+* Variable Data, such as cache, database, data log.
+  ```bash
+  $PREFIX/var/
+  ```
 
 ## Shared Storage Location
-
 
 ### Install Termux-Tools
 
