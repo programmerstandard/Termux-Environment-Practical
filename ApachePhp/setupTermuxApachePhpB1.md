@@ -63,3 +63,45 @@ For information about $PREFIX path, go to [/Foundation/most-common-path.md](/Fou
 ```bash
 /data/data/com.termux/files/usr/var/log/apache2/
 ```
+
+### Configure Apache 
+
+#### Go To Apache Folder
+
+```bash
+cd $PREFIX/etc/apache2/
+```
+
+#### Edit Apache Configuration With Editor
+
+```bash
+nano httpd.conf
+```
+
+#### Change Server Port If Need It
+
+```apache
+Listen 8080
+```
+
+#### Fix MPM Problem
+
+```apache
+# Load mpm_worker_module libexec/apache2/mod_mpm_worker.so
+
+Load mpm_prefork_module libexec/apache2/mod_mpm_prefork.so
+```
+
+#### Load PHP Module 
+
+```apache
+LoadModule php_module libexec/apache2/libphp.so
+```
+
+#### Add PHP Handler 
+
+```apache
+<FilesMatch \.php$>
+  SetHandler application/x-httpd-php
+</FilesMatch>
+```
