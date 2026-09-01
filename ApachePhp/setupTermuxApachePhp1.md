@@ -266,6 +266,42 @@ pkg install git unzip
 
 Type `y` if need it.
 
+### Global Installation For PHPUnit
+
+```bash
+composer global require phpunit/phpunit
+```
+
+### Open Shell Configuration File In Nano
+
+```bash
+nano ~/.bashrc
+```
+
+### Add Your Global composer Binaries To Your System Path
+
+```bash
+export PATH="$HOME/.composer/vendor/bin:$PATH"
+```
+
+### Reload Shell Configuration 
+
+```bash
+source ~/.bashrc
+```
+
+### Verify The Shell Configuration 
+
+```bash
+echi $PATH
+```
+
+### Verify Global Installation
+
+```bash
+phpunit --version
+```
+
 ## Install Xdebug
 
 ## Configure Xdebug
