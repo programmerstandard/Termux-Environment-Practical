@@ -363,6 +363,12 @@ xdebug.client_host=127.0.0.1
 2. Tap Enter
 3. Tap Ctrl+X
 
+### Verify PHP Configuration 
+
+```bash
+php --ini
+```
+
 ### Reload Apache Configuration 
 
 ```bash
