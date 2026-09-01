@@ -34,45 +34,45 @@ lynx --version
 pkg install apache2
 ```
 
-## Check Apache 
+### Check Apache 
 
 ```bash
 apachectl -v
 ```
 
-## Apache Location
+### Apache Location
 
-### Apache Binary Folder Location
+#### Apache Binary Folder Location
 
 ```bash
 /data/data/com.termux/files/usr/bin/
 ```
 
-### Apache Web Root Folder
+#### Apache Web Root Folder
 
 ```bash
 $PREFIX/share/apache2/default-site/htdocs/
 ```
 
-### Apache Configuration File Location
+#### Apache Configuration File Location
 
 ```bash
 $PREFIX/etc/apache2/httpd.conf
 ```
 
-### Apache Modules Directory
+#### Apache Modules Directory
 
 ```bash
 $PREFIX/libexec/apache2/
 ```
 
-### Apache Log Folder Location
+#### Apache Log Folder Location
 
 ```bash
 $PREFIX/var/log/apache2/
 ```
 
-## Configure Apache2
+### Configure Apache2
 
 * Go to Apache2 folder then edit apache configuration file with nano text editor.
 
@@ -148,19 +148,19 @@ DocumentRoot "/data/data/com.termux/files/usr/share/apache2/default-site/htdocs"
 
 Press `Ctrl + O` then tap `Enter` then press `Ctrl + X`
 
-## Check The Apache Configuration
+### Check The Apache Configuration
 
 ```
 apachectl configtest
 ```
 
-## Running Apache2
+### Running Apache2
 
 ```bash
 apachectl start
 ```
 
-## Verify Apache Is Running
+### Verify Apache Is Running
 
 ```bash
 apachectl status
@@ -172,7 +172,7 @@ apachectl status
 pkg instal php
 ```
 
-## Check PHP
+### Check PHP
 
 ```bash
 pkg list-installed | grep php
@@ -184,7 +184,7 @@ pkg list-installed | grep php
 pkg install php-apache
 ```
 
-## Check PHP-Apache
+### Check PHP-Apache
 
 ```bash
 pkg list-installed | grep php-apache
@@ -196,7 +196,7 @@ pkg list-installed | grep php-apache
 pkg install curl
 ```
 
-## Verify curl Installed 
+### Verify curl Installed 
 
 ```bash
 curl --version 
@@ -208,7 +208,7 @@ curl --version
 curl http://getcomposer.org/installer | php
 ```
 
-## Find out current location 
+### Find out current location 
 
 ```bash
 pwd
@@ -216,14 +216,14 @@ pwd
 
 Make Sure Composer Location is on `$PREFIX/bin/composer” 
 
-## Move The composer.phar If Need It
+### Move The composer.phar If Need It
 
 Move the `composer.phar` to `$PREFIX/bin/composer` if need it.
 
 ```bash
 mv composer.phar $PREFIX/bin/composer
 ```
-## Check Composer Location 
+### Check Composer Location 
 
 Check Composer is on the right path
 
@@ -231,13 +231,13 @@ Check Composer is on the right path
 ls $PREFIX/bin/composer
 ```
 
-## Make composer Executable 
+### Make composer Executable 
 
 ```bash
 chmod +x $PREFIX/bin/composer 
 ```
 
-## Verify composer Is Installed
+### Verify composer Is Installed
 
 ```bash
 composer about
