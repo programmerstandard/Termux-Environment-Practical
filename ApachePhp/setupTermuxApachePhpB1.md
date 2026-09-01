@@ -32,7 +32,7 @@ httpd -v
 
 ### Apache Location 
 
-For information about $PREFIX path, go to ![Foundation/most-common-path.md](Foundation/most-common-path.md)
+For information about $PREFIX path, go to [/Foundation/most-common-path.md](/Foundation/most-common-path.md)
 
 #### Apache Binary Folder Location
 
