@@ -313,7 +313,67 @@ phpunit --version
 
 ## Install Xdebug
 
-## Configure Xdebug
+### Check Packages Size
+
+```bash
+pkg show make clang php-pear | grep Size
+```
+
+### See What Will Installed
+
+```bash
+pkg install --dry-run make
+pkg install --dry-run clang
+0kg install --dry-run php-pear
+```
+
+### Install Packages
+
+```bash
+pkg install make clang php-pear
+```
+
+Type -y if need it.
+
+### Install Xdebug V8a PECL
+
+```bash
+pecl install xdebug
+```
+
+### Configure Xdebug In PHP.ini
+
+```bash
+nano $PREFIX/etc/php.ini
+```
+
+Type the following configuration lines at the end of the file.
+
+```apache
+zend_extension=xdebug.so
+xdebug.mode=debug
+xdebug.start_with_request=yes
+xdebug.client_port=9003
+xdebug.client_host=127.0.0.1
+```
+
+### Save File And Exit Nano
+
+1. Tap Ctrl+O
+2. Tap Enter
+3. Tap Ctrl+X
+
+### Reload Apache Configuration 
+
+```bash
+apachectl restart 
+```
+
+### Verify Xdebug Installation 
+
+```bash
+php -v
+```
 
 ## Install phpDocumentor
 
@@ -324,7 +384,7 @@ pkg list-installed | grep libxml2
 pkg list-installed | grep libxslt
 ```
 * Tap Enter for each line.
-* If expected output is similar like below:
+¹$x!* If expected output is similar like below:
 
 ```bash
 ... [installed...]
