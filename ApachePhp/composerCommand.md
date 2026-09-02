@@ -1,5 +1,6 @@
 Most Common Used Composer Commands :
 1. Basic Project Management
+
   | Task | Command |
   |---|---|
   | Initialize project | composer init |
@@ -8,6 +9,7 @@ Most Common Used Composer Commands :
   | Check configuration | composer validate |
 
 2. Package Operations
+
 | Task | Command |
 |---|---|
 | Require package | composer require <vendor/package> |
@@ -17,6 +19,7 @@ Most Common Used Composer Commands :
 | Show installed | composer show |
 
 3. Autoload & Global Tools
+
 | Task | Command |
 |---|---|
 | Regenerate autoloader | composer dump-autoload |
@@ -25,6 +28,7 @@ Most Common Used Composer Commands :
 | Self-update | composer self-update |
 
 4. Performance & Troubleshooting Flags
+
 | Task | Command / Environment Flag | Description |
 |---|---|---|
 | Bypass Xdebug overhead | XDEBUG_MODE=off composer install | Temporarily disables Xdebug tracing to speed up package |
