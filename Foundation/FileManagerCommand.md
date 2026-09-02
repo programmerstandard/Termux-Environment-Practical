@@ -89,3 +89,22 @@ For View Contents Of A File, read [viewFiles.md](viewFiles.md)
 ```bash
 touch <file_name.extension>
 ```
+
+## Modify File Permissions 
+
+```bash
+chmod <permission-symbol-or-numeric> <file-name.extension>
+```
+
+## Check File Permissions
+
+```bash
+ls -l <file-name.extension>
+```
+
+## Check An Entire Directory Permissions
+
+```bash
+ls -ld <directory-name/>
+```
+
