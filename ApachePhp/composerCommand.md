@@ -1,11 +1,11 @@
 Most Common Used Composer Commands :
 1. Basic Project Management
-| Task | Command |
-|---|---|
-| Initialize project | composer init |
-| Install dependencies | composer install |
-| Update dependencies | composer update | 
-| Check configuration | composer validate |
+  | Task | Command |
+  |---|---|
+  | Initialize project | composer init |
+  | Install dependencies | composer install |
+  | Update dependencies | composer update | 
+  | Check configuration | composer validate |
 
 2. Package Operations
 | Task | Command |
