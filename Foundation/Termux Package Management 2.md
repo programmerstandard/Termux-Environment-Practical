@@ -48,6 +48,12 @@ apt install <package-name> --dry-run
 apt show <package-name> | grep Size
 ```
 
+## See What Package Will Be Remove
+
+```bash
+apt remove --dry-run <package-name>
+```
+
 **Notes**
 
 > Change `<package-name>` with your required package.
