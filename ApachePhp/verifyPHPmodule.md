@@ -22,8 +22,15 @@ php -m | grep -i keyword
 ```
 
 **Example**
+
 ```php
 php -m | grep -i mysql
 ```
 
 If PHP module is not installed, there will be empty output.
+
+## To Found PHP Extension Directory
+
+```php
+php -i | grep extension_dir
+```
