@@ -97,6 +97,12 @@ nano httpd.conf
 Listen 8080
 ```
 
+#### Enable ServerName
+
+```apache
+ServerName localhost:8080
+```
+
 #### Fix MPM Problem
 
 ```apache
@@ -141,6 +147,30 @@ DocumentRoot "/data/data/com.termux/files/usr/share/apache2/default-site/htdocs"
 
 Save Apache configuration file:
 Press `Ctrl + O` then tap `Enter` then press `Ctrl + X`
+
+## Install PHP Package
+
+```bash
+apt instal php
+```
+
+### Check PHP
+
+```bash
+apt list | grep php
+```
+
+## Install PHP-Apache Package
+
+```bash
+apt install php-apache
+```
+
+### Check PHP-Apache
+
+```bash
+apt list | grep php-apache
+```
 
 ### Check The Apache Configuration 
 
