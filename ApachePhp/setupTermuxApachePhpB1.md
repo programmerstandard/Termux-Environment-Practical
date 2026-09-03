@@ -141,3 +141,15 @@ DocumentRoot "/data/data/com.termux/files/usr/share/apache2/default-site/htdocs"
 
 Save Apache configuration file:
 Press `Ctrl + O` then tap `Enter` then press `Ctrl + X`
+
+### Check The Apache Configuration 
+
+```bash
+httpd -t
+```
+
+### Running The Apache
+
+```bash
+httpd -k start
+```
