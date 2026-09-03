@@ -119,3 +119,10 @@ LoadModule php_module libexec/apache2/libphp.so
 </FilesMatch>
 ```
 
+### Set Default Index
+
+```apache
+<IfModule dir_module>
+  DirectoryIndex index.php index.html
+</IfModule>
+```
