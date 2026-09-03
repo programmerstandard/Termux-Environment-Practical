@@ -17,10 +17,23 @@ apt install --dry-run nano
 apt install nano
 ```
 
-## Install Apache Package
+## Apache Package
+
+### Check What Installed
 
 ```bash
 apt install --dry-run apache2
+```
+
+### Check Apache2 Package Size
+
+```bash
+apt show apache2 | grep Size
+```
+
+### Install Apache2 Package
+
+```bash
 apt install apache2
 ```
 
@@ -105,3 +118,4 @@ LoadModule php_module libexec/apache2/libphp.so
   SetHandler application/x-httpd-php
 </FilesMatch>
 ```
+
