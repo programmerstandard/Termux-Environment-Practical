@@ -126,3 +126,18 @@ LoadModule php_module libexec/apache2/libphp.so
   DirectoryIndex index.php index.html
 </IfModule>
 ```
+
+### Customizing Document Root
+
+```apache
+DocumentRoot "/data/data/com.termux/files/usr/share/apache2/default-site/htdocs"
+
+<Directory "/data/data/com.termux/files/usr/share/apache2/default-site/htdocs">
+  Options Indexes FollowSymLinks
+  AllowOverride All
+  Require all granted
+</Directory>
+```
+
+Save Apache configuration file:
+Press `Ctrl + O` then tap `Enter` then press `Ctrl + X`
