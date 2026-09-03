@@ -40,6 +40,30 @@ pkg install apache2
 apachectl -v
 ```
 
+## Install PHP Package
+
+```bash
+pkg instal php
+```
+
+### Check PHP
+
+```bash
+pkg list-installed | grep php
+```
+
+## Install PHP-Apache Package
+
+```bash
+pkg install php-apache
+```
+
+### Check PHP-Apache
+
+```bash
+pkg list-installed | grep php-apache
+```
+
 ### Apache Location
 
 #### Apache Binary Folder Location
@@ -87,6 +111,12 @@ make the following adjustment:
 
 ```bash
 Listen 8080
+```
+
+* Enable ServerName
+
+```bash
+ServerName localhost:8080
 ```
 
 * Fix MPM Problem 
@@ -164,30 +194,6 @@ apachectl start
 
 ```bash
 apachectl status
-```
-
-## Install PHP Package
-
-```bash
-pkg instal php
-```
-
-### Check PHP
-
-```bash
-pkg list-installed | grep php
-```
-
-## Install PHP-Apache Package
-
-```bash
-pkg install php-apache
-```
-
-### Check PHP-Apache
-
-```bash
-pkg list-installed | grep php-apache
 ```
 
 ## Install curl Package
