@@ -1,7 +1,7 @@
 # List Of Sample PHP Module To Verify :
 
 * autoconf, automake, libtool, m4, make essential for PIE ( PHP Installer for Extensions ).
-* autoconf, automake, git essential for Xdebug.
+* autoconf, automake, git, m4, make, wget essential for Xdebug.
 * libxml2 essential for phpDocumentor.
 * libphp.so Module in php-apache package for running PHP in Apache.
 * php-sodium essential for PHPmyadmin.
