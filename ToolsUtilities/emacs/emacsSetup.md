@@ -47,3 +47,5 @@ echo "alias emacs='emacs -nw'" > ~/.zshrc
 ```bash
 source ~/.bashrc
 ```
+
+To learn about Emacs Keyboard Shortcuts, tap on [EmacsKeyboardShortcuts.md](EmacsKeyboardShortcuts.md)
