@@ -24,3 +24,12 @@ emacs -nw ~/.emacs.d/init.el
 (require 'use-package)
 (setq use-package-always-ensure t)
 ```
+
+## Install php-mode Plugin
+
+```
+:: PHP Support 
+(use-package php-mode
+:mode "\\.php\\'")
+```
+
