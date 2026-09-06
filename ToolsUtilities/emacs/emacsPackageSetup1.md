@@ -1,4 +1,10 @@
 
+## Launch emacs In Terminal Mode
+
+```bash
+emacs -nw
+```
+
 ## Open emacs Configuration Files
 
 ```bash
