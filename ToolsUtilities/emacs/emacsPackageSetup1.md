@@ -1,9 +1,4 @@
 
-## Launch emacs In Terminal Mode
-
-```bash
-emacs -nw
-```
 
 ## Open emacs Configuration Files
 
@@ -14,7 +9,7 @@ emacs -nw ~/.emacs.d/init.el
 ## Enable MELPA Package Repository
 
 ```lisp
-:: Enable MELPA Package Repository
+;; Enable MELPA Package Repository
 (require 'package)
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
 (package-initialize)
@@ -23,7 +18,7 @@ emacs -nw ~/.emacs.d/init.el
 ## Automatic Package Installation
 
 ```lisp
-:: Automatically install missing packagea using use-package
+;; Automatically install missing packagea using use-package
 (unless (package-installed-p 'use-package)
   (package-refresh-contents)
   (package-install 'use-package))
@@ -33,9 +28,16 @@ emacs -nw ~/.emacs.d/init.el
 
 ## Install php-mode Plugin
 
-```
-:: PHP Support 
+```lisp
+;; PHP Support 
 (use-package php-mode
 :mode "\\.php\\'")
 ```
 
+## Install Mix Web Mode
+
+```lisp
+;; Mixed Web Mode
+(use-package web-mode
+ :mode ("\\.phtml\\'" "\\.tpl\\.php\\'" "\\.html\\'"))
+```
