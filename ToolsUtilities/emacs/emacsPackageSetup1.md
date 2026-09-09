@@ -1,8 +1,35 @@
-## Install Language Server Interface
+## Install NodeJs
 
+```bash
+pkg install nodejs-lts -y
 ```
-pkg install nodejs-lts -y && npm install -g Intelephense
+## Verify The Installed NodeJs
+
+```bash
+node --version
 ```
+
+## Verify The Installed NPM
+
+```bash
+npm -v
+```
+
+## Install Language Server Interface For eglot
+
+```bash
+npm ++install -g intelephense
+```
+
+## Install Language Server Interface For Typescript 
+
+```bash
+npm install -g typescript
+npm install -g typescript-language-server
+npm install -g vscode-langservers-extracted
+```
+
+## Install 
 
 ## Open emacs Configuration Files
 
@@ -62,5 +89,3 @@ emacs -nw ~/.emacs.d/init.el
   :hook ((php-mode . eglot-ensure)
    (web-mode . eglot-ensure )))
 ```
-
-## Install 
