@@ -41,3 +41,20 @@ emacs -nw ~/.emacs.d/init.el
 (use-package web-mode
  :mode ("\\.phtml\\'" "\\.tpl\\.php\\'" "\\.html\\'"))
 ```
+
+## Install Apache Mode 
+
+```lisp
+;; Apache Mode
+(use-package apache-mode 
+:mode ("\\.htaccess\\'" "httpd\\.conf\\'")
+```
+
+## Install LSP Support
+
+```lisp
+;; LSP Support ( Requires 'intelephense' Installed Via NPM )
+(use-package eglot
+  :hook ((php-mode . eglot-ensure)
+   (web-mode . eglot-ensure )))
+```
