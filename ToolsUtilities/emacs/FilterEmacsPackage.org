@@ -1,0 +1,18 @@
+
+* Filter The Package By Package Menu
+
+1. Open emacs
+  #+BEGIN_SRC bash
+  emacs -nw
+  #+END_SRC
+2. Press M-x (Meta or Alt).
+3. Type `list-packages` and press `Enter`.
+4. To Display Only:
+   1. installed packages.
+      1. Press M-x then   
+      2. Type `package-menu-filter-by-status`.
+      3. Type installed.
+   2. available packages
+     1. Press M-x then
+     2. Type `package-menu-filter-by-status`.
+     3. Type available.
