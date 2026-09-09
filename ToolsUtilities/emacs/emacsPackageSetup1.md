@@ -1,4 +1,8 @@
+## Install Language Server Interface
 
+```
+pkg install nodejs -y && npm install -g Intelephense
+```
 
 ## Open emacs Configuration Files
 
