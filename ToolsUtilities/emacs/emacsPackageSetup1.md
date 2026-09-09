@@ -1,7 +1,7 @@
 ## Install Language Server Interface
 
 ```
-pkg install nodejs -y && npm install -g Intelephense
+pkg install nodejs-lts -y && npm install -g Intelephense
 ```
 
 ## Open emacs Configuration Files
@@ -62,3 +62,5 @@ emacs -nw ~/.emacs.d/init.el
   :hook ((php-mode . eglot-ensure)
    (web-mode . eglot-ensure )))
 ```
+
+## Install 
