@@ -19,8 +19,20 @@ export MY_VAR="my_vakue"
 
 ## Permanent Export For Bash
 
-Edit ~/.bashrc or ~/.profile 
+1. Edit ~/.bashrc or ~/.profile file
 
 ```bash
 nano ~/.bashrc
 ```
+
+2. Add your export lines in the bottom 
+
+```bash
+export PATH=PATH:/data/data/com.termux/files/home
+```
+
+3. Save and exit ( Ctrl+O and Enter then Ctrl+K )
+4. Then reload the file
+  ```
+  source ~/.bashrc
+  ```
