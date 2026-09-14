@@ -10,3 +10,10 @@ ls /data/data/com.termux/files/usr/bin
 ```bash
 type <command-name>
 ```
+
+## Locate A Binary, Source, And Manual Page Files For A Command
+
+```
+whereis <command-name>
+```
+
