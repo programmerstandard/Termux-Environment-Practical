@@ -28,3 +28,9 @@ hash -r
 ```bash
 type -a <command-name>
 ```
+
+## Exit From A Session
+
+```bash
+exit
+```
