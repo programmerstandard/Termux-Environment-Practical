@@ -5,3 +5,10 @@ Termux Package Management 4
 ```bash
 apt-get check
 ```
+
+## Update Package Metadata
+
+```bash
+apt-get update
+```
+
