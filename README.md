@@ -49,5 +49,5 @@ help
 
 * [https://ko-fi.com/SystemCrafters](https://ko-fi.com/SystemCrafters)
 * [https://aaronrutten.gumroad.com/l/patreon-course?utm_campaign=courses&utm_medium=link&utm_source=website](https://aaronrutten.gumroad.com/l/patreon-course?utm_campaign=courses&utm_medium=link&utm_source=website)
-* ![PayPal donation please is valuable for operational](pp_p2p_my_qrcode_1778798034388.jpg " PayPal donation please is valuable for operational")
+* [https://buymeacoffee.com/codehead](https://buymeacoffee.com/codehead)
 </details>
