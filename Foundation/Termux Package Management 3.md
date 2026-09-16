@@ -14,5 +14,5 @@ dpkg -c <file-name.deb>
 ## Found Which Packages Own Specific Files
 
 ```bash
-dpkg -S <path-to-file{
+dpkg -S <path-to-file>
 ```
