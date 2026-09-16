@@ -45,7 +45,7 @@ apt install <package-name> --dry-run
 ## Install A Package
 
 ```bash
-apt install `<package-name>`
+apt install <package-name>
 ```
 
 ## Check Package Size Before Installing
