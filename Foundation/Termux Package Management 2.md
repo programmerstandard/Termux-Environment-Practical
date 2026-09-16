@@ -54,6 +54,12 @@ apt install <package-name>
 apt show <package-name> | grep Size
 ```
 
+## Repair Package 
+
+```bash
+apt --fix-broken install 
+```
+
 ## See What Package Will Be Remove
 
 ```bash
