@@ -9,5 +9,5 @@ pkg install --dry-run `<package-name>` | apt install --dry-run `<package-name>` 
 pkg search `<keyword>` | apt search `<keyword>` |
 pkg show `<package-name>` | apt show  `<package-name>` |
 pkg autoclean | apt autoremove |
-| apt remove --dry-run `<package-name>` |
+|| apt remove --dry-run `<package-name>` |
 pkg uninstall  `<package-name>` | apt remove `<package-name>` |
