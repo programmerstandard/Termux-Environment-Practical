@@ -27,5 +27,5 @@ apt-cache rdepends <package-name>
 ## Compare Between Installed And Candidate Package 
 
 ```bash
-apt-cache policy `<package-name>`
+apt-cache policy <package-name>
 ```
