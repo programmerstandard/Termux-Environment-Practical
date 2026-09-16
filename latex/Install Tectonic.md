@@ -20,6 +20,12 @@ pkg update --fix-missing && pkg upgrade -y
 pkg install termux-tools termux-api core-utils zip unzip
 ```
 
+### Check Installed Packages
+
+```bash
+pkg list-installed | grep -E 'termux-tools|termux-api|core-utils|zip|unzip'
+```
+
 ### Grant Android Shared Storage Access
 
 ```bash
