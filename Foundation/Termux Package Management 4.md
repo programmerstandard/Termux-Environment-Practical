@@ -17,3 +17,9 @@ apt-get update
 ```bash
 apt-cache depends <package-name>
 ```
+
+## Check Specific Package Reverse Dependencies By
+
+```bash
+apt-cache rdepends <package-name>
+```
