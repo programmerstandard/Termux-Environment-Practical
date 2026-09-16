@@ -60,6 +60,18 @@ apt show <package-name> | grep Size
 apt remove --dry-run <package-name>
 ```
 
+## Remove A Package
+
+```bash
+apt remove <package-name>
+```
+
+## Remove A Package And Configuration Files
+
+```bash
+apt purge <package-name>
+```
+
 **Notes**
 
 > Change `<package-name>` with your required package.
