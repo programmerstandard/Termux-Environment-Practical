@@ -74,6 +74,12 @@ pkg install fontconfig-utils
 fc-cache -fv
 ```
 
+### Make Emacs Folder
+
+```
+mkdir -p ~/.emacs.d/
+```
+
 ### Create Or Edit Emacs Config
 
 ```bash
