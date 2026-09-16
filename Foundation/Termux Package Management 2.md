@@ -18,6 +18,12 @@ apt update
 apt upgrade
 ```
 
+## Find Repair Broken Packages 
+
+```bash
+apt update --fix-missing
+```
+
 ## List All Available Packages
 
 ```bash
