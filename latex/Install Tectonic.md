@@ -80,8 +80,8 @@ fc-cache -fv
 mkdir -p ~/.emacs.d/
 ```
 
-### Create Or Edit Emacs Config
+### Create Or Edit Emacs Config File
 
 ```bash
-nano ~/.emacs
+emacs -nw ~/.emacs.d/init.el
 ```
