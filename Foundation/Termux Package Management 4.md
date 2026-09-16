@@ -1,4 +1,4 @@
-Termux Package Management 4
+# Termux Package Management 4
 
 ## Verify If All Dependencies Are Currently Satisfied
 
@@ -12,3 +12,8 @@ apt-get check
 apt-get update
 ```
 
+## Check Specific Package Dependencies To
+
+```bash
+apt-cache depends <package-name>
+```
