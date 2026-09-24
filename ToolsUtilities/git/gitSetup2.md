@@ -4,7 +4,6 @@
 
 ```bash
 apt update && apt upgrade -y
-
 ```
 
 ## Install Git
