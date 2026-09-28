@@ -3,6 +3,7 @@
 ```bash
 pkg install nodejs-lts -y
 ```
+
 ### Verify The Installed NodeJs
 
 ```bash
