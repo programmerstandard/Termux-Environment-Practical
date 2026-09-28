@@ -17,6 +17,7 @@ help
 ## Notes
 
 * This repository for Android Smartphone only.
+* This repository tutorial tested in Realme smartphone. Some tutorial may adapt to each SmartPhone.
 * Google Play Store versions of Termux are restricted and may not support full functionality. Use Termux from F-Droid instead.
 * Suggest to use GBoard soft keyboard.
 * Remember this repository only for software development and maintenance servers!
