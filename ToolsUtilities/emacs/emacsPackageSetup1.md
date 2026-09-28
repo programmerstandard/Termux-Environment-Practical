@@ -36,7 +36,7 @@ npm install -g vscode-langservers-extracted
 npm list -g --depth=0
 ```
 
-## Install emacs 
+## Install emacs Package
 
 ### Open emacs Configuration Files
 
