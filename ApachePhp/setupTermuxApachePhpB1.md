@@ -183,3 +183,10 @@ httpd -t
 ```bash
 httpd -k start
 ```
+
+### Verify Apache Is Running
+
+```bash
+pgrep -l httpd
+```
+
