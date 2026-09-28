@@ -3,25 +3,25 @@
 ```bash
 pkg install nodejs-lts -y
 ```
-## Verify The Installed NodeJs
+### Verify The Installed NodeJs
 
 ```bash
 node --version
 ```
 
-## Verify The Installed NPM
+### Verify The Installed NPM
 
 ```bash
 npm -v
 ```
 
-## Install Language Server Interface For eglot
+### Install Language Server Interface For eglot
 
 ```bash
 npm install -g intelephense
 ```
 
-## Install Language Server Interface For Typescript 
+### Install Language Server Interface For Typescript 
 
 ```bash
 npm install -g typescript
@@ -29,15 +29,21 @@ npm install -g typescript-language-server
 npm install -g vscode-langservers-extracted
 ```
 
-## Install 
+### Verify NodeJS Modules
 
-## Open emacs Configuration Files
+```bash
+npm list -g --depth=0
+```
+
+## Install emacs 
+
+### Open emacs Configuration Files
 
 ```bash
 emacs -nw ~/.emacs.d/init.el
 ```
 
-## Enable MELPA Package Repository
+### Enable MELPA Package Repository
 
 ```lisp
 ;; Enable MELPA Package Repository
@@ -46,7 +52,7 @@ emacs -nw ~/.emacs.d/init.el
 (package-initialize)
 ```
 
-## Automatic Package Installation
+### Automatic Package Installation
 
 ```lisp
 ;; Automatically install missing packagea using use-package
@@ -57,7 +63,7 @@ emacs -nw ~/.emacs.d/init.el
 (setq use-package-always-ensure t)
 ```
 
-## Install php-mode Plugin
+### Install php-mode Plugin
 
 ```lisp
 ;; PHP Support 
@@ -65,7 +71,7 @@ emacs -nw ~/.emacs.d/init.el
 :mode "\\.php\\'")
 ```
 
-## Install Mix Web Mode
+### Install Mix Web Mode
 
 ```lisp
 ;; Mixed Web Mode
@@ -73,7 +79,7 @@ emacs -nw ~/.emacs.d/init.el
  :mode ("\\.phtml\\'" "\\.tpl\\.php\\'" "\\.html\\'"))
 ```
 
-## Install Apache Mode 
+### Install Apache Mode 
 
 ```lisp
 ;; Apache Mode
@@ -81,7 +87,7 @@ emacs -nw ~/.emacs.d/init.el
 :mode ("\\.htaccess\\'" "httpd\\.conf\\'")
 ```
 
-## Install LSP Support
+### Install LSP Support
 
 ```lisp
 ;; LSP Support ( Requires 'intelephense' Installed Via NPM )
