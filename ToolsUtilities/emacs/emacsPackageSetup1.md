@@ -18,7 +18,7 @@ npm -v
 ## Install Language Server Interface For eglot
 
 ```bash
-npm ++install -g intelephense
+npm install -g intelephense
 ```
 
 ## Install Language Server Interface For Typescript 
