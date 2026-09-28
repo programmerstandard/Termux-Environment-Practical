@@ -2,7 +2,7 @@
 
 **Notes**
 
-You may install `termux-tools` first, if missing before use this following commands. Learn to install termux-tools, tap  [most- common-path.md](most-common-path.md)
+You may install `termux-tools` first, if missing before use this following commands. Learn to install termux-tools, tap  [Foundation/most-common-path.md](Foundation/most-common-path.md)
 
 
 ## Access Shared Storage
