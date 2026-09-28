@@ -14,5 +14,5 @@ apachectl -t -D DUMP_MODULES | grep <module_name>
 Example:
 
 ```bash
-apachectl -t -D DUMP_MODULES | grep <module_name>
+apachectl -t -D DUMP_MODULES | grep user
 ```
