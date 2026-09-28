@@ -39,7 +39,6 @@ Command ` ~/ ` (tilde slash) in Termux environment is a shell expansion for Home
 
 ### To Setup Android App Storage Permission
 
-#### Mod§
 1. Go to your phone's **Settings -> Apps -> App management**
 2. Found and.tap on **Termux**.
 3. Tap on **Permissions**.
