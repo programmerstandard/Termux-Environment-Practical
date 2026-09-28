@@ -2,7 +2,7 @@
 
 **Notes**
 
-You may install `termux-tools` first, if missing before use this following commands.
+You may install `termux-tools` first, if missing before use this following commands. Learn to install termux-tools, tap  [most- common-path](most-common-path)
 
 
 ## Access Shared Storage
