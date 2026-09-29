@@ -23,17 +23,17 @@ termux-setup-storage
 
 ## 2. Configure your Git identity
 
+Verify Git is installed:
+
+```bash
+git --version
+```
+
 Set your name and email (used in commits):
 
 ```bash
 git config --global user.name "Your Name"
 git config --global user.email "your.email@example.com"
-```
-
-Verify Git is installed:
-
-```bash
-git --version
 ```
 
 ---
