@@ -37,3 +37,29 @@ apachectl configtest
 ```bash
 /data/data/com.termux/files/usr/bin/
 ```
+
+### Apache Document Root
+
+```bash
+/data/data/com.teemux/files/usr/share/apache2/default-site/htdocs/
+```
+
+## Apache Configuration File Paths
+
+### Main Configuration File
+
+```bash
+/data/data/com.termux/files/usr/etc/apache2/httpd.conf
+```
+
+### Module Configuration File
+
+```bash
+/data/data/com.termux/files/usr/etc/apache2/conf.d/
+```
+
+### Virtual Configuration Hosts (VHosts)
+
+```bash
+/data/data/com.termux/files/usr/etc/apache2/extra/httpd-vhosts.conf
+```
