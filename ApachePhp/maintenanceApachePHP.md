@@ -30,3 +30,10 @@ php ... [installed]
 apachectl configtest
 ```
 
+## Apache Folder Paths
+
+### Apache Binary Folder Location
+
+```bash
+/data/data/com.termux/files/usr/bin/
+```
