@@ -44,6 +44,18 @@ apachectl configtest
 /data/data/com.teemux/files/usr/share/apache2/default-site/htdocs/
 ```
 
+### Apache Modules Folder
+
+```bash
+/data/data/com.termux/files/usr/libexec/apache2/
+```
+
+### Apache Log Folder
+
+```bash
+/data/data/com.termux/files/usr/var/log/apache2/
+```
+
 ## Apache Configuration File Paths
 
 ### Main Configuration File
