@@ -12,6 +12,16 @@ pkg update && pkg upgrade -y
 termux-setup-storage
 ```
 
+## Verify Termux Storage
+
+```bash
+ls ~/storage
+```
+
+### Expected Output
+
+Folder List
+
 ## Install Python As Termux Package
 
 ```bash
