@@ -26,14 +26,15 @@ help
 ## Learning Resources
 
 ### General
-* https://en.wikipedia.org/
-* https://medium.com/
-* https://www.freecodecamp.org/
 * https://devdocs.io/
 * https://developers.google.com/
-* https://developer.apple.com/dokumentasin
+* https://developer.apple.com/documentation
+* https://en.wikipedia.org/
+* https://github.com/
+* https://medium.com/
+* https://www.freecodecamp.org/
+* https://www.gnu.org/manual/  
 * https://www.ibm.com/
-* https://github.com/  
 
 ### Browser And Web Development 
 * https://developer.chrome.com/docs
