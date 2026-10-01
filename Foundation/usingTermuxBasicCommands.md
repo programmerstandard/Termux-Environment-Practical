@@ -2,7 +2,7 @@
 ## Wipes The Terminal Screen To Be Clean
 
 ```bash
-clean
+clear
 ```
 
 ## Display The Current Username 
