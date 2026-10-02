@@ -1,6 +1,7 @@
 # Install Apache, PHP, Composer 1
 
-Default Apache multi processing module (mpm_worker)
+* Default Apache multi processing module (mpm_worker)
+* For development purposes.
 
 ## Preparation
 
@@ -338,6 +339,8 @@ echo $PATH
 phpunit --version
 ```
 
+---
+
 ## Install Xdebug
 
 ### Check Packages Size
@@ -413,6 +416,8 @@ apachectl restart
 ```bash
 php -v
 ```
+
+---
 
 ## Install phpDocumentor
 
