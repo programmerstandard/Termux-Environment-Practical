@@ -210,7 +210,7 @@ apachectl configtest
 
 ### PHP Configuration File Path
 
-In Termux usually locate in
+1. In Termux, PHP Configuration usually locate in
 
 ```bash
 $PREFIX/lib/php.ini
@@ -219,7 +219,16 @@ $PREFIX/lib/php.ini
 or 
 
 ```bash
-$PREFIX/etc/php/php.ini
+$PREFIX/etc/php/php.INI
+```
+
+2. Backup, before make change
+
+```bash
+cp $PREFIX/lib/php.ini $PREFIX/lib/php.ini.bak
+```
+
+
 ---
 
 
