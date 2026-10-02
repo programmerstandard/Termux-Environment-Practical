@@ -38,6 +38,8 @@ apachectl configtest
 Syntax OK
 ```
 
+---
+
 ## Apache Folder Paths
 
 ### Apache Binary Folder Location
@@ -119,5 +121,5 @@ rm -rf $PREFIX/var/log/apache2/*
 #### 3. Start Apache 
 
 ```bash
-apachectl stop
+apachectl start
 ```
