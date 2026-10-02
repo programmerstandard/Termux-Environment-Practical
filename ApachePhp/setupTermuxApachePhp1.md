@@ -10,11 +10,15 @@ pkg update && pkg upgrade
 
 type `y` if needed.
 
+---
+
 ## Install Nano Text Editor
 
 ```bash
 pkg install nano
 ```
+
+---
 
 ## Install lynx Text Web Browser Package
 
@@ -28,6 +32,8 @@ pkg install lynx
 lynx --version
 ```
 
+---
+
 ## Install Apache2 Package On Termux
 
 ```bash
@@ -39,6 +45,8 @@ pkg install apache2
 ```bash
 apachectl -v
 ```
+
+---
 
 ## Install PHP Package
 
@@ -63,6 +71,8 @@ pkg install php-apache
 ```bash
 pkg list-installed | grep php-apache
 ```
+
+---
 
 ### Apache Location
 
@@ -95,6 +105,8 @@ $PREFIX/libexec/apache2/
 ```bash
 $PREFIX/var/log/apache2/
 ```
+
+---
 
 ### Configure Apache2
 
@@ -184,6 +196,8 @@ Press `Ctrl + O` then tap `Enter` then press `Ctrl + X`
 apachectl configtest
 ```
 
+---
+
 ### Running Apache2
 
 ```bash
@@ -196,6 +210,8 @@ apachectl start
 apachectl status
 ```
 
+---
+
 ## Install curl Package
 
 ```bash
@@ -207,6 +223,8 @@ pkg install curl
 ```bash
 curl --version 
 ```
+
+---
 
 ## Install Composer Package 
 
@@ -229,6 +247,7 @@ Move the `composer.phar` to `$PREFIX/bin/composer` if need it.
 ```bash
 mv composer.phar $PREFIX/bin/composer
 ```
+
 ### Check Composer Location 
 
 Check Composer is on the right path
@@ -248,6 +267,8 @@ chmod +x $PREFIX/bin/composer
 ```bash
 composer about
 ```
+
+---
 
 ## Install PHPUnit
 
