@@ -24,6 +24,8 @@ pkg list-installed | grep php
 php ... [installed]
 ```
 
+---
+
 ## Check The Apache Configuration
 
 ```bash
