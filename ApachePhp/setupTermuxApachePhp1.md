@@ -111,7 +111,14 @@ $PREFIX/var/log/apache2/
 
 ### Configure Apache2
 
-* Go to Apache2 folder then edit apache configuration file with nano text editor.
+* Go to Apache2 folder 
+* before making edit to your Apache Configuration File, Backup first:
+
+```bash
+cp $PREFIX/etc/apache2/httpd.conf $PREFIX/etc/apache2/httpd.conf.bak
+```
+
+* then edit apache configuration file with nano text editor.
 
 ```bash
 cd $PREFIX/etc/apache2/
@@ -198,6 +205,23 @@ apachectl configtest
 ```
 
 ---
+
+## Configure PHP
+
+### PHP Configuration File Path
+
+In Termux usually locate in
+
+```bash
+$PREFIX/lib/php.ini
+```
+
+or 
+
+```bash
+$PREFIX/etc/php/php.ini
+---
+
 
 ### Running Apache2
 
