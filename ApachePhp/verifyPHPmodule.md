@@ -4,6 +4,8 @@
 * autoconf, automake, git, m4, make, pkg-config, wget essential for Xdebug.
 * libxml2 essential for phpDocumentor.
 * libphp.so Module in php-apache package for running PHP in Apache.
+* php-curl essential for transfer data between network servers.
+* php-gd essential for image processing library.
 * php-sodium essential for PHPmyadmin.
 * php-mbstring essential for UTF-8.
 * php-intl essential for internationalization.
