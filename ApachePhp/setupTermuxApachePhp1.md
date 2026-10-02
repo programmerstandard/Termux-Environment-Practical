@@ -212,25 +212,45 @@ apachectl configtest
 
 1. In Termux, PHP Configuration usually locate in
 
-```bash
-$PREFIX/lib/php.ini
-```
+  ```bash
+  $PREFIX/lib/php.ini
+  ```
 
-or 
+    or 
 
-```bash
-$PREFIX/etc/php/php.INI
-```
+  ```bash
+  $PREFIX/etc/php/php.INI
+  ```
 
 2. Backup, before make change
 
-```bash
-cp $PREFIX/lib/php.ini $PREFIX/lib/php.ini.bak
+  ```bash
+  cp $PREFIX/lib/php.ini $PREFIX/lib/php.ini.bak
+  ```
+
+3. Change the following directive values to the following examples or adjust to your requirements:
+
+  ```php
+ display_errors=on
+  display_startup_errors=on
+  error_reporting=E_ALL
+  log_errors=on
+date.timezone=Europe/London
+ ```
+4. Enable these following essential development extensions:
+
+```php
+extension=curl
+extension=fileinfo
+extension=gd
+extension=mbstring
+extension=mysqli
+extension=openssl
+extension=pdo_mysql
+extension=zip
 ```
 
-
 ---
-
 
 ### Running Apache2
 
