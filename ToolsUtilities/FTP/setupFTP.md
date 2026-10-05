@@ -21,3 +21,15 @@ pkg install busybox
 ```bash
 pkg install termux-services
 ```
+
+## Run Read Only FTP Server
+
+```bash
+busybox tcpsvd -vE 0.0.0.0 8021 busybox ftpd /sdcard
+```
+
+## Run Read Write FTP Server
+
+```bash
+busybox tcpsvd -vE 0.0.0.0 8021 busybox ftpd /sdcard
+```
