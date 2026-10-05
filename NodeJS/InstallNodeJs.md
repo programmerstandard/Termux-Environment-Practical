@@ -36,3 +36,10 @@ npm install -g npm@latest
 ```bash
 npm install -g typescript
 ```
+
+## Verify typescript Has Installed 
+
+```bash
+npm tsc --version 
+```
+.
