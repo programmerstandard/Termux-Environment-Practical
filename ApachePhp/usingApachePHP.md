@@ -1,3 +1,4 @@
+# Using Apache PHP
 
 ## Go To Web Document Root Folder
 
@@ -33,3 +34,11 @@ apachectl start
 
 * Open Browser
 * Navigate to `http://localhost:8080/hello_world.php`
+
+## Run FTP Server
+
+For preparation and setup, read on [setupTermuxApachePhpB1.md](setupTermuxApachePhpB1.md)
+
+```bash
+busybox tcpsvd -vE 0.0.0.0 8021 busybox ftpd -w $PREFIX/share/apache2/default-site/htdocs/
+```
