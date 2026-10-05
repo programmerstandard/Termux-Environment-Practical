@@ -4,11 +4,20 @@
 pkg update && pkg upgrade -y
 ```
 
-## Install inetutils
+## Install inetutils Package
 
+```bash
+pkg install inetutils
+```
 
+## Install busybox Package
 
-## Install busybox
+```bash
+pkg install busybox
+```
 
+## Install termux-servicea Package
 
-## Install termux-servicea
+```bash
+pkg install termux-services
+```
