@@ -16,7 +16,7 @@ pkg install inetutils
 pkg install busybox
 ```
 
-## Install termux-servicea Package
+## Install termux-services Package
 
 ```bash
 pkg install termux-services
