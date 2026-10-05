@@ -6,7 +6,9 @@ pkg update && pkg upgrade -y
 
 ## Install inetutils
 
+
+
 ## Install busybox
 
 
-## Install 
+## Install termux-servicea
