@@ -1,5 +1,7 @@
 # Using Apache PHP
 
+For information about $PREFIX path, go to [/Foundation/most-common-path.md](/Foundation/most-common-path.md)
+
 ## Go To Web Document Root Folder
 
 ```bash
