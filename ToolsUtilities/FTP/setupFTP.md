@@ -51,3 +51,7 @@ busybox tcpsvd -vE 0.0.0.0 8021 busybox ftpd /sdcard
 ```bash
 busybox tcpsvd -vE 0.0.0.0 8021 busybox ftpd /sdcard
 ```
+
+## To Stop FTP Server
+
+`Ctrl` + `C`
