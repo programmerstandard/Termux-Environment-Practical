@@ -190,3 +190,24 @@ httpd -k start
 pgrep -l httpd
 ```
 
+---
+
+## Install FTP Server
+
+### Install busybox Package 
+
+```bash
+apt install busybox 
+```
+
+### Install inetutils Package 
+
+```bash
+apt install inetutils
+```
+
+## Install termux-services Package 
+
+```bash
+apt install termux-services 
+```
