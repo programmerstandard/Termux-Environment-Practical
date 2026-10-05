@@ -13,6 +13,7 @@ pkg update && pkg upgrade -y
 ```
 
 ## Install Package Node.js (LTS version)
+
 ```
 pkg install nodejs-lts
 ```
@@ -22,4 +23,16 @@ pkg install nodejs-lts
 ```
 node -v 
 npm -v
+```
+
+## Update npm
+
+```bash
+npm install -g npm@latest
+```
+
+## Install typescript
+
+```bash
+npm install -g typescript
 ```
