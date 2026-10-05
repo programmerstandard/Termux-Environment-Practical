@@ -10,16 +10,34 @@ pkg update && pkg upgrade -y
 pkg install inetutils
 ```
 
+## Verify inetutils has installed 
+
+```bash
+pkg list-installed | grep inetutils
+```
+
 ## Install busybox Package
 
 ```bash
 pkg install busybox
 ```
 
+## Verify busybox Has Installed
+
+```bash
+pkg list-installed | grep busybox
+```
+
 ## Install termux-services Package
 
 ```bash
 pkg install termux-services
+```
+
+## Verify termux-services Has Installed 
+
+```bash
+pkg list-installed | grep termux-services 
 ```
 
 ## Run Read Only FTP Server
