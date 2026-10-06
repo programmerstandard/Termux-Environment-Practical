@@ -2,7 +2,7 @@
 ## Running MySql
 
 ```
-mysqld_safe -u root
+mysqld_safe -u root &
 ```
 
 **Notes:** 
