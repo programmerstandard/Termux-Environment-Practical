@@ -10,7 +10,9 @@ command in package
 * httpd in apache2
 * ip in iproute2
 * kill in coreutils
+* ls in coreutils
 * mariadbd_safe in mariadb
+* netstat in net-tools
 * nano in nano
 * php in php
 * pgrep in procps
