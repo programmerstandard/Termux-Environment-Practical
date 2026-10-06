@@ -139,3 +139,7 @@ ps -ef | grep mysqld
 ```
 
 ## Stop MySql
+
+```bash
+pkill mysql
+```
