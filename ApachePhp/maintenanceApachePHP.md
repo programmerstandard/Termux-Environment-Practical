@@ -123,3 +123,10 @@ rm -rf $PREFIX/var/log/apache2/*
 ```bash
 apachectl start
 ```
+
+### Verify Apache Is Running
+
+```bash
+pgrep -a httpd
+```
+

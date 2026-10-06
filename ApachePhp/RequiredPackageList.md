@@ -3,6 +3,8 @@
 command in package
 
 * apachectl in apache2
+* apt in apt
+* chmod in coreutils
 * git in git
 * grep in grep
 * httpd in apache2
