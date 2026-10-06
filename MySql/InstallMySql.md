@@ -143,3 +143,7 @@ ps -ef | grep mysqld
 ```bash
 pkill mysql
 ```
+
+```mysql
+mysqladmin -u root shutdown
+```
