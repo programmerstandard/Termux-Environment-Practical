@@ -42,4 +42,3 @@ npm install -g typescript
 ```bash
 npm tsc --version 
 ```
-.
