@@ -138,7 +138,7 @@ If you want to using MySql database, read in "Using MySql.md"
 ps -ef | grep mysqld
 ```
 
-## Stop MySql
+## Stop MyS ql
 
 ```bash
 pkill mysql
