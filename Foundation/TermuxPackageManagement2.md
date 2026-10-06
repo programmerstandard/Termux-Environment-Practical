@@ -33,6 +33,11 @@ apt list
 ## Verify All Installed Packages
 
 ```bash
+apt list --installed
+```
+## Verify All Manual Installed Packages 
+
+```bash
 apt list --manual-installed
 ```
 
