@@ -17,7 +17,15 @@ mysql -u root -p
 
 ## Create Database
 
+```sql
+CREATE DATABASE restaurantManagementSystem;
+```
+
 ## Access Database
+
+```sql
+USE restaurantManagementSystem;
+```
 
 ## Create Table
 
