@@ -11,6 +11,10 @@ mysqld_safe -u root &
 
 ## Access To MySql
 
+```sql
+mysql -u root -p
+```
+
 ## Create Database
 
 ## Access Database
