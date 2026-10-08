@@ -8,15 +8,17 @@
 2. Press M-x (Meta or Alt).
 3. Type `list-packages` and press `Enter`.
 4. To Display Only:
-   # start with @i in Github
+   #+BEGIN_COMMENT: 
+   start with 4@i in Github@@
+   #+END_COMMENT
    1. installed packages.
-      # start with @a in Github
+      # start with 4@i@a in Github
       1. Press M-x then   
       2. Type `package-menu-filter-by-status`.
       3. Type installed.
-   # start with @ii in Github
+    # start with 4@ii in Github
    2. available packages
-     # start with @b in Github
+     # start with 4@ii@a in Github
      1. Press M-x then
      2. Type `package-menu-filter-by-status`.
      3. Type available.
