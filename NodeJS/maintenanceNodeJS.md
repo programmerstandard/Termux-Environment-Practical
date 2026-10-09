@@ -26,5 +26,11 @@ npm update -g
 ## Verify NodeJS Package Manager Current Setting
 
 ```bash
+npm config get <key>
+```
+
+**Example**
+
+```bash
 npm config get allow-scripts 
 ```
