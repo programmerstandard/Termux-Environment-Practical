@@ -21,6 +21,8 @@ npm outdated -g
 npm update -g
 ```
 
+---
+
 ## Verify NodeJS Package Manager Current Setting
 
 ```bash
