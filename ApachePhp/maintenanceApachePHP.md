@@ -130,3 +130,16 @@ apachectl start
 pgrep -a httpd
 ```
 
+---
+
+## Verify The Active PHP Configuration
+
+```bash
+php --ini
+```
+
+## Verify PHP Is Running
+
+```bash
+pgrep -l php
+```
