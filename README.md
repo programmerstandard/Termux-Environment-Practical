@@ -40,6 +40,9 @@ help
 * https://developer.chrome.com/docs
 * https://developer.mozilla.org/en-US/
 * https://developer.wordpress.org/
+* https://docs.npmjs.com/
+* https://nodejs.org/docs/latest/api/
+* https://www.php.net/manual/en/index.php
 
 ### Authoring Tools And Parsing Document
 * https://orgmode.org/
