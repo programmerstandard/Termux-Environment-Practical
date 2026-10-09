@@ -41,6 +41,10 @@ help
 * https://developer.mozilla.org/en-US/
 * https://developer.wordpress.org/
 
+### Authoring Tools And Parsing Document
+* https://orgmode.org/
+* https://www.markdownguide.org/
+
 ### Others
 * https://github.com/jsdoc/jsdoc
 * https://peps.python.org/pep-0257/
