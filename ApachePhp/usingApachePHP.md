@@ -28,6 +28,12 @@ echo 'Hello World!";
 * Tap `Enter`
 * Press `Ctrl` + `X`
 
+## Check The PHP Script Syntax
+
+```bash
+php -l hello_world.php
+```
+
 ## Run Apache Sever
 
 ```bash
