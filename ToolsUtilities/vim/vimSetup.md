@@ -33,7 +33,11 @@ vim <file-name.extension>
 vim ~/.vimrc
 ```
 
-Add one of these lines or all lines depends on your requirements:
+Add one of these lines or all lines depends on your requirements by using this following steps:
+
+* Press i.
+* Type these following lines.
+
 
 ```vim
 syntax on
@@ -44,4 +48,4 @@ set expandtab
 set autoindent
 ```
 
-Save and exit with `:wq`
+Save and exit with press Esc then `:wq`
