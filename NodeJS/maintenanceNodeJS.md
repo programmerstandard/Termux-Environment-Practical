@@ -34,3 +34,11 @@ npm config get <key>
 ```bash
 npm config get allow-scripts 
 ```
+
+---
+
+## Verify NodeJS Global Package Location 
+
+```bash
+nom -g ls
+```
