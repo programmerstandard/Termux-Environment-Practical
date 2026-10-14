@@ -9,6 +9,7 @@ Use Termux's On Screen Extra Keys Row as substitute for Ctrl and Alt/Meta.
 | Action | Shortcut |
 |---|---|
 | Save File | C-x C-s |
+| Save As File | C-x C-w |
 | Open / Create File | C-x C-f |
 | Close Current File / Buffer. | C-x k |
 | Exit Application | C-x C-c |
