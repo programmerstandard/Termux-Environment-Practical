@@ -7,5 +7,7 @@ ls -la
 ```
 
 File|Path|
-bash Profile|~/.bashrc|
-npm Configuration|~/.npmrc|
+bash Profile|`~/.bashrc`|
+emacs Configuration|`~/.emacs.d/init.el`|
+emacs Configuration 2|`~/.emacs/init.el`|
+npm Configuration|`~/.npmrc`|
