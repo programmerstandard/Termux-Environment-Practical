@@ -18,3 +18,8 @@ pkg install links
 links -version
 ```
 
+## Open The Specific Website
+
+```bash
+links https://www.google.com
+```
