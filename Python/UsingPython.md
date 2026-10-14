@@ -1,3 +1,7 @@
+# Using Python
+
+to learn install Python in Termux, tap [InstallPython.md](InstallPython.md)
+
 ## Check Python Is Installed
 
 ```bash
