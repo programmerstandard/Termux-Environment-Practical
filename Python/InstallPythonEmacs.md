@@ -45,3 +45,15 @@ pkg install emacs
 ```bash
 emacs --version
 ```
+
+## Install nodejs
+
+```bash
+pkg install nodejs-lts
+```
+
+## Verify nodejs Has Installed
+
+```bash
+node --version
+```
