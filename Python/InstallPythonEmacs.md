@@ -57,3 +57,41 @@ pkg install nodejs-lts
 ```bash
 node --version
 ```
+## Install pyright
+
+```bash
+npm install -g pyright
+```
+
+## Verify pyright Has Installed
+
+```bash
+pyright --version
+```
+
+## Configure emacs
+
+```bash
+emacs ~/.emacs.s/init.el
+```
+
+## Type Configuration Line
+
+```lisp
+;; Enable line numbers globally
+(global-display-line-numbers-mode t)
+
+;; Initialize MELPA package manager
+(require 'package)
+(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
+(package-initialize)
+
+;; Automatically start Eglot whenever a Python file is opened
+(add-hook 'python-mode-hook 'eglot-ensure)
+
+;; Specify Python executable path
+(setq python-shell-interpreter "python")
+```
+
+1. Save by typing `C-x C-s` (Control+x, Control+s). 
+2. then exit by typing `C-x C-c` (Ctrl+x, Ctrl+c).
