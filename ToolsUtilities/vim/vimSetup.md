@@ -40,9 +40,9 @@ Add one of these lines or all lines depends on your requirements by using this f
 
 
 ```vim
-syntax on
-set number 
-set tabstop=4
+syntax on         " Enable Syntax Highlighting
+set number        " Show line numbers
+set tabstop=4     " Auto-indent new line
 set shiftwidth=4
 set expandtab
 set autoindent
