@@ -8,4 +8,4 @@ command in package
 * php in php
 
 For general package list:
-[EnvironmentContainer/GeneralPackageList.md](EnvironmentContainer/GeneralPackageList.md)
+[/EnvironmentContainer/GeneralPackageList.md](/EnvironmentContainer/GeneralPackageList.md)
