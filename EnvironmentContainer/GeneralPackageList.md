@@ -1,0 +1,15 @@
+* apt in apt package
+* chmod in coreutils package 
+* git in git package
+* grep in grep package
+* ip in iproute2 package 
+* kill in coreutils package
+* ls in coreutils package
+* nano in nano package
+* netstat in net-tools package
+* pgrep in procps package
+* pkg in termux-tools package
+* pkill in procps package
+* ps in procps package
+* ss in iproute2 package
+* whoami in coreutils package
