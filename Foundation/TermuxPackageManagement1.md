@@ -60,6 +60,18 @@ pkg search <query>
 pkg search '^<query>'
 ```
 
+## Search For Packages Whose Names End With The Query
+
+```bash
+pkg search '<query>$'
+```
+
+## Search For Packages Whose Names Contain With The Query
+
+```bash
+pkg search '.+<query>.+'
+```
+
 ## Change Repository
 
 ```
