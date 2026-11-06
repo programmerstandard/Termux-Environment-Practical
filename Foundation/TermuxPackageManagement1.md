@@ -54,6 +54,12 @@ pkg files <package-name>
 pkg search <query>
 ```
 
+## Search For Packages Whose Names Start With The Query
+
+```bash
+pkg search '^<query>'
+```
+
 ## Change Repository
 
 ```
