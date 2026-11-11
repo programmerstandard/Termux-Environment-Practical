@@ -1,7 +1,19 @@
-# Check Latex Package
+# Check LaTeX Package
 
-## List All Installed Latex Package 
+## List All Installed LaTeX Package 
 
 ```bash
 tlmgr info --only-installed
+```
+
+## Search LaTeX Package
+
+```bash
+tlmgr search <package_name>
+```
+
+**Example**
+
+```bash
+tlmgr search amsmath
 ```
