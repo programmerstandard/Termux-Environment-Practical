@@ -30,16 +30,22 @@ pkg list-installed
 pkg list-installed | grep <package-name>
 ```
 
-## Explore Package Information
+## Explore A Package Information
 
 ```bash
 pkg show <package-name>
 ```
 
-## Show Package File Size
+## Show A Package File Size
 
 ```bash
 pkg show <package-name> | grep Size
+```
+
+## Show An Installed Package
+
+```bash
+pkg show -a <package-name> | grep install 
 ```
 
 ## Explore File List From A Package
