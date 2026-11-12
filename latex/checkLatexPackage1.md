@@ -17,3 +17,15 @@ tlmgr search <package_name>
 ```bash
 tlmgr search amsmath
 ```
+
+## Check Info About A LaTeX Package
+
+```bash
+tlmgr info <package_name>
+```
+
+**Example**
+
+```bash
+tlmgr info amsmath
+```
