@@ -20,3 +20,10 @@ In this example will show Hime Directory Disk Usage
 ```bash
 du -sh ~
 ```
+
+## List Top 10 Largest Files Or Directories 
+
+```bash
+du -ah ~ | sort -hr | head -n 10
+```
+
