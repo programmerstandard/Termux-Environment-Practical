@@ -4,3 +4,9 @@
 ```bash
 free -h
 ```
+
+## Show Disk Space
+
+```bash
+df -h
+```
