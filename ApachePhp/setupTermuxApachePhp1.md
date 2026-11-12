@@ -394,6 +394,7 @@ phpunit --version
 
 ---
 
+<!-- maintenance or archive
 ## Install Xdebug
 
 ### Check Packages Size
@@ -469,6 +470,7 @@ apachectl restart
 ```bash
 php -v
 ```
+-->
 
 ---
 
