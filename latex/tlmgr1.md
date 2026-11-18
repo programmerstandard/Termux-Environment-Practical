@@ -1,4 +1,4 @@
-# tlmgr r
+# tlmgr
 tlmgr is TeX Live's built-in package manager.
 
 ## List All Installed TeX Live's Packages
