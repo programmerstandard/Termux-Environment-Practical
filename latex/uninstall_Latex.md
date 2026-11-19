@@ -26,4 +26,19 @@ Type `y` if need it.
 
 ```bash
 pkg autoclean
+pkg clean
+```
+
+## Delete Remaining TeX Live Directories 
+
+```
+rm -rf $PREFIX/share/texlive
+rm -rf ~/.texlive*
+```
+
+## Verify Remaining TeX Live Directories Has Removed 
+
+```
+ls -a $PREFIX/share/texlive
+ls -a ~/.texlive*
 ```
