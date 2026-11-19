@@ -12,3 +12,4 @@
 
 * C- is Control ( Ctl ).
 * M- is Alternate ( Alt ).
+* Use Termux's On Screen Extra Keys Row as substitute for Ctrl and Alt/Meta.

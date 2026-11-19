@@ -50,4 +50,6 @@ echo "alias emacs='emacs -nw'" >> ~/.zshrc
 source ~/.bashrc
 ```
 
+### Notes
+
 To learn about Emacs Keyboard Shortcuts (`C-x C-c`), tap on [EmacsKeyboardShortcuts.md](EmacsKeyboardShortcuts.md)
