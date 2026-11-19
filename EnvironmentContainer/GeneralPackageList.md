@@ -1,5 +1,6 @@
 * apt in apt package
 * chmod in coreutils package 
+* exit in execline package 
 * git in git package
 * grep in grep package
 * ip in iproute2 package 
