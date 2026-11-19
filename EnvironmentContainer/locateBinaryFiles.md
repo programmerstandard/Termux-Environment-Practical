@@ -17,3 +17,20 @@ type <command-name>
 whereis <command-name>
 ```
 
+## Install Package Which
+
+```bash
+pkg install which
+```
+
+## Locate Executable Path Of Any Installed Command 
+
+```bash
+which <command_name>
+```
+
+### Example
+
+```
+which node
+```
