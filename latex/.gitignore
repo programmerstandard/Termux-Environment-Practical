@@ -1,0 +1,15 @@
+# Auxiliary build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+
+# Output PDF (optional: ignore if generated via CI/CD)
+# main.pdf

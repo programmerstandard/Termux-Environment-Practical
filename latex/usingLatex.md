@@ -1,5 +1,6 @@
 # Using Latex
 
+## Standard Project Directory And Structure
 ```markdown
 my-project/
 ├── main.tex              # Primary entry point (preamble + imports)
