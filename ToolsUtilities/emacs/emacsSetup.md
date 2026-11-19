@@ -12,6 +12,8 @@ pkg update && pkg upgrade -y
 pkg install emacs
 ```
 
+Type `y` if need it.
+
 ## Verify emacs
 
 ```bash
@@ -48,4 +50,4 @@ echo "alias emacs='emacs -nw'" > ~/.zshrc
 source ~/.bashrc
 ```
 
-To learn about Emacs Keyboard Shortcuts, tap on [EmacsKeyboardShortcuts.md](EmacsKeyboardShortcuts.md)
+To learn about Emacs Keyboard Shortcuts (`C-x C-c`), tap on [EmacsKeyboardShortcuts.md](EmacsKeyboardShortcuts.md)
