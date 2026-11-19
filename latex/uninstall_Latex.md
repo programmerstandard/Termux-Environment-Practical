@@ -22,6 +22,18 @@ pkg uninstall texlive-installer texlive-bin
 
 Type `y` if need it.
 
+## Verify pdflateX Binaries Is Remove
+
+```bash
+type pdflatex
+```
+
+### Expected Output
+
+```
+... not found
+```
+
 ## Clean Up Leftover Dependencies And Cache
 
 ```bash
@@ -38,7 +50,13 @@ rm -rf ~/.texlive*
 
 ## Verify Remaining TeX Live Directories Has Removed 
 
-```
+```bash
 ls -a $PREFIX/share/texlive
 ls -a ~/.texlive*
+```
+
+### Expected Output
+
+```
+No such file or directory 
 ```
