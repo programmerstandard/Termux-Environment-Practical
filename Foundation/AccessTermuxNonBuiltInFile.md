@@ -1,4 +1,4 @@
-To know $PREFIX path, read in most-common-path.md
+To know about $PREFIX path, read in [most-common-path.md](most-common-path.md)
 
 ### apache path
 
