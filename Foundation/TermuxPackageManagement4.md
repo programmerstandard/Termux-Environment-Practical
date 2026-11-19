@@ -29,3 +29,10 @@ apt-cache rdepends <package-name>
 ```bash
 apt-cache policy <package-name>
 ```
+
+## Preview Orphanaged Packages 
+
+```bash
+apt-get autoremove --dry-run
+```
+
