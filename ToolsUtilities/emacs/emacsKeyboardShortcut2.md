@@ -13,3 +13,4 @@ Use Termux's On Screen Extra Keys Row as substitute for Ctrl and Alt/Meta.
 | Close Current File / Buffer. | C-x k |
 | Exit Application | C-x C-c |
 | Cancel A Command | C-g |
+| Execute A Command | M-x |
