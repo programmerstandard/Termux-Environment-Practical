@@ -1,5 +1,11 @@
 # Using Latex
 
+## Install Nano Text Editor
+
+```bash
+pkg install nano
+```
+
 ## Standard Project Directory And Structure
 
 ```markdown

@@ -51,8 +51,6 @@ pdflatex --version
 ... <version.number> ...
 ```
 
-
-
 **Notes**
 * Full Install scheme recommended if you have enough storage.
 * You may adapt to the current update instructions on the screen.
