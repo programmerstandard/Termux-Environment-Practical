@@ -42,7 +42,7 @@ type pdflatex
 ### Expected Output
 
 ```
- ... not found
+No command <command-name> found
 ```
 
 ## Clean Up Leftover Dependencies And Cache
