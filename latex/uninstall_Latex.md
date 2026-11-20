@@ -3,7 +3,7 @@
 ## Check texlive Package Has Installed
 
 ```bash
-pkg list-installed | grep texlive
+pkg list-installed | grep -iE "tex|latex"
 ```
 
 ## Standard Uninstall ( Remove Latex Binaries )
@@ -12,12 +12,23 @@ pkg list-installed | grep texlive
 pkg uninstall texlive-coreroot
 ```
 
+or the other standard form:
+
+```bash
+pkg uninstall <package-name>
+```
+
 Replace `coreroot` with the other Package name that found from "Check texlive Package Has Installed".
 
 ### Example
 
 ```bash
-pkg uninstall texlive-installer texlive-bin
+pkg uninstall texlive-installer
+```
+then remove:
+
+```bash
+pkg uninstall texlive-bin
 ```
 
 Type `y` if need it.
@@ -31,7 +42,7 @@ type pdflatex
 ### Expected Output
 
 ```
-... not found
+ ... not found
 ```
 
 ## Clean Up Leftover Dependencies And Cache
