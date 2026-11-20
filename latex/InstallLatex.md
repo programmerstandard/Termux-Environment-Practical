@@ -12,6 +12,8 @@ termux-setup-storage
 pkg update && pkg upgrade -y
 ```
 
+
+
 ## Install Latex (Termux Package)
 
 ```
@@ -32,4 +34,5 @@ pkg install texlive-installer
 7. type `c` if need it.
 
 **Notes**
-Full Install scheme recommended if you have enough storage.
+* Full Install scheme recommended if you have enough storage.
+* You may adapt to the current update instructions on the screen.
