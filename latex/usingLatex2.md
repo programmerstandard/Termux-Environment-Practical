@@ -1,4 +1,4 @@
-# Using Latex
+# Using Latex 2
 
 ## Install Nano Text Editor
 
