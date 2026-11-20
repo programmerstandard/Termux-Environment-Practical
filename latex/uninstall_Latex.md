@@ -55,7 +55,7 @@ pkg clean
 ## Delete Remaining TeX Live Directories 
 
 ```
-rm -rf $PREFIX/share/texlive
+rm -rf $PREFIX/share/texlive/
 rm -rf ~/.texlive*
 ```
 
