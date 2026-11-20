@@ -42,7 +42,7 @@ type pdflatex
 ### Expected Output
 
 ```
-No command <command-name> found
+No command <command-name> found...
 ```
 
 ## Clean Up Leftover Dependencies And Cache
@@ -56,6 +56,7 @@ pkg clean
 
 ```
 rm -rf $PREFIX/share/texlive/
+rm -rf $PREFIX/bin/texlive/
 rm -rf ~/.texlive*
 ```
 
@@ -63,6 +64,7 @@ rm -rf ~/.texlive*
 
 ```bash
 ls -a $PREFIX/share/texlive
+ls -a $PREFIX/bin/texlive
 ls -a ~/.texlive*
 ```
 
