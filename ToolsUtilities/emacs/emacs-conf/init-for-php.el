@@ -27,3 +27,4 @@
 (electric-pair-mode 1)               ; Auto-close brackets () [] {}
 (setq-default tab-width 4)           ; Set standard tab width
 (setq-default indent-tabs-mode nil)  ; Use spaces instead of tabs
+

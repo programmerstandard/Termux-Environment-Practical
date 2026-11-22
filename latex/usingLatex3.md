@@ -53,4 +53,3 @@ emacs -nw ~/.emacs.d/init.el
 * Exit application with `C`-`x` `C`-`c`
 * Open emacs using `emacs -nw`
 * Press `M-x` then type `package-refresh-contents`.
-* 

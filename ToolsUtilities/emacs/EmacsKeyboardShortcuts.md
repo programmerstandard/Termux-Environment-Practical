@@ -2,7 +2,7 @@
 
 | Category | Action | Shortcut |
 |---|---|---|
-| File Management | Save File | C-x C-s |
+| File Management | Save File / Buffer | C-x C-s |
 | | Open / Create File | C-x C-f |
 | | Close Current File / Buffer. | C-x k |
 | | Exit Application | C-x C-c |
