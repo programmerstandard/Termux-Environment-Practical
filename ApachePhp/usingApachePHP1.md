@@ -1,6 +1,7 @@
 # Using Apache PHP
 
-For information about $PREFIX path, go to [/Foundation/most-common-path.md](/Foundation/most-common-path.md)
+* For information about $PREFIX path, go to [/Foundation/most-common-path.md](/Foundation/most-common-path.md)
+* Install using [setupTermuxApachePhp1.md](/ApachePhp/setupTermuxApachePhp1.md)
 
 ## Go To Web Document Root Folder
 
