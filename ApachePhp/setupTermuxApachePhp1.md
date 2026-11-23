@@ -115,7 +115,7 @@ $PREFIX/var/log/apache2/
 * Go to Apache2 folder 
 * before making edit to your Apache Configuration File, Backup first:
 
-```bash
+```
 cp '$PREFIX/etc/apache2/httpd.conf' '$PREFIX/etc/apache2/httpd.conf.bak'
 ```
 
