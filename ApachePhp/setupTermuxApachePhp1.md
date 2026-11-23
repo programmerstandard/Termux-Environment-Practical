@@ -2,6 +2,7 @@
 
 * Default Apache multi processing module (mpm_worker)
 * For development purposes.
+* For learn install MySQL, click on [MySql](MySql/) repository.
 
 ## Preparation
 
