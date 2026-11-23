@@ -23,5 +23,6 @@ Use Termux's On Screen Extra Keys Row as substitute for Ctrl and Alt/Meta.
 | Save As File | C-x C-w |
 | Open / Create File | C-x C-f |
 | Toggle Read-Only File | C-x C-q |
+| Maximize Current Window (Delete Other Windows) | C-x 1 |
 | Close Current File / Buffer. | C-x k |
 | Exit Application | C-x C-c |
