@@ -2,9 +2,8 @@
 
 ```markdown
 emacs
-├── Frame
-├   |
-|   ├──  Window 
-|   |    |
-|   |    ├──  Buffer
+└── Frame
+    └── Window 
+        └── Buffer 
+            └── Mini Buffer
 ```
