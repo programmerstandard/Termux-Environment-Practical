@@ -32,6 +32,7 @@ help
 * https://en.wikipedia.org/
 * https://github.com/
 * https://medium.com/
+* https://www.colostate.edu
 * https://www.freecodecamp.org/
 * https://www.gnu.org/manual/  
 * https://www.ibm.com/
