@@ -3,8 +3,8 @@
 ```markdown
 emacs
 ├── Frame
-├.  |
-|   |--- Window 
+├   |
+|   ├──  Window 
 |   |    |
-|   |    |--- Buffer
+|   |    ├──  Buffer
 ```
