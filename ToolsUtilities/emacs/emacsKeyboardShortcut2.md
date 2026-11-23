@@ -9,8 +9,12 @@ Use Termux's On Screen Extra Keys Row as substitute for Ctrl and Alt/Meta.
 
 | Action | Shortcut |
 |---|---|
+| 
 | Cancel A Command | C-g |
-| Execute A Command | M-x |
+| Search Backward | C-r |
+| Search Forward | C-s |
+| Execute An Extended Command | M-x |
+
 ## Prefix C-x
 
 | Action | Shortcut |
@@ -18,5 +22,6 @@ Use Termux's On Screen Extra Keys Row as substitute for Ctrl and Alt/Meta.
 | Save File | C-x C-s |
 | Save As File | C-x C-w |
 | Open / Create File | C-x C-f |
+| Toggle Read-Only File | C-x C-q |
 | Close Current File / Buffer. | C-x k |
 | Exit Application | C-x C-c |
