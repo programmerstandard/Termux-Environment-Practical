@@ -23,7 +23,7 @@
 (setq echo-keystrokes 0.1)
 
 ;; Make C-z disabled
-(set
+(global-unset-key (kbd "C-z"))
 
 ;; --- 4. Quality of Life Features ---
 (show-paren-mode 1)                  ; Highlight matching parenthesis
