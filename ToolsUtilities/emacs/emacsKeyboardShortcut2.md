@@ -5,6 +5,14 @@ Use Termux's On Screen Extra Keys Row as substitute for Ctrl and Alt/Meta.
 * Ctrl represented as C+
 * Alt or Esc represented as M+
 
+## General Keyboard Shortcuts 
+
+| Action | Shortcut |
+|---|---|
+| Cancel A Command | C-g |
+| Execute A Command | M-x |
+## Prefix C-x
+
 | Action | Shortcut |
 |---|---|
 | Save File | C-x C-s |
@@ -12,5 +20,3 @@ Use Termux's On Screen Extra Keys Row as substitute for Ctrl and Alt/Meta.
 | Open / Create File | C-x C-f |
 | Close Current File / Buffer. | C-x k |
 | Exit Application | C-x C-c |
-| Cancel A Command | C-g |
-| Execute A Command | M-x |
