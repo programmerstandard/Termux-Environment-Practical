@@ -22,6 +22,9 @@
 ;; Make 'ESC' act as Meta key immediately (useful on mobile keyboards)
 (setq echo-keystrokes 0.1)
 
+;; Make C-z disabled
+(set
+
 ;; --- 4. Quality of Life Features ---
 (show-paren-mode 1)                  ; Highlight matching parenthesis
 (electric-pair-mode 1)               ; Auto-close brackets () [] {}

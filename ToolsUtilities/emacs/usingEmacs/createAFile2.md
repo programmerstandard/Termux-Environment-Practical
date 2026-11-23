@@ -30,3 +30,22 @@ C-x C-f
 
 * Type your file name with file extension,
 * then press Enter.
+
+## Switch To shell Buffer
+
+```
+C-x b
+press Enter
+```
+
+## Exit From shell buffer
+
+```bash
+exit
+```
+
+## Close The Buffer
+
+```
+C-x k
+```
