@@ -64,7 +64,7 @@ emacs -nw ~/.emacs.d/init.el
 (electric-pair-mode 1)               ; Auto-close brackets () [] {}
 (setq-default tab-width 4)           ; Set standard tab width
 (setq-default indent-tabs-mode nil)  ; Use spaces instead of tabs
-``
+```
 
-Or you can use the pre-saved configuration file on: 
+Or you can use the pre-saved configuration file on: [/ToolsUtilities/emacs/emacs-conf](/ToolsUtilities/emacs/emacs-conf)
 
