@@ -25,7 +25,7 @@ pkg install --dry-run emacs
 pkg install emacs
 ```
 
-# Open Your emacs Init File 
+## Open Your emacs Init File 
 
 ```
 emacs -nw ~/.emacs.d/init.el
