@@ -10,7 +10,8 @@ Use Termux's package manager (pkg is an alias for apt in Termux):
 
 ```bash
 pkg update && pkg upgrade -y
-pkg install git openssh -y
+pkg install git -y
+pkg install openssh -y
 ```
 
 If you plan to use Termux with Android storage:
