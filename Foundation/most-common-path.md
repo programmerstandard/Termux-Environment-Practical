@@ -1,3 +1,5 @@
+# Most Common Path
+
 ## Home Directory Location For Active User
 
 ```bash

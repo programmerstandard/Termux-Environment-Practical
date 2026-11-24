@@ -56,7 +56,7 @@ remove an empty directory
 rmdir <directory_name>
 ```
 
-## Copy Files An Directories
+## Copy File
 
 copy a file from source path to the destination path
 
