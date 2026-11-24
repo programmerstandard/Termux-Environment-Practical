@@ -11,6 +11,8 @@ Use Termux's On Screen Extra Keys Row as substitute for Ctrl and Alt/Meta.
 |---|---|
 | Cancel A Command | C-g |
 | Execute An Extended Command | M-x |
+| Move Cursor backward one character (backward-char) | C-b |
+| Move Cursor forward one character (forward-char) | C-f |
 | Search Backward | C-r |
 | Search Forward | C-s |
 
@@ -28,6 +30,8 @@ Use Termux's On Screen Extra Keys Row as substitute for Ctrl and Alt/Meta.
 |---|---|
 | Exit Application | C-x C-c |
 | Open / Create File | C-x C-f |
+| Open Dired / list-directory | C-x C-d |
 | Save As File | C-x C-w |
 | Save File | C-x C-s |
 | Toggle Read-Only File | C-x C-q |
+
