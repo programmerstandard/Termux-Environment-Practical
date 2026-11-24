@@ -61,4 +61,4 @@ Move your PDF to your device's Shared Storage (e.g. the Downloads folder):
 mv test.pdf ~/storage/downloads/
 ```
 
-Open it using your favorite Android PDF viewer, e.g. "Document Reader - PDF Editor by Simple Design Ltd.".
+Open it using your favorite Android PDF viewer, e.g. "Document Reader - PDF Editor by Simple Design Ltd. (One Read) ".
