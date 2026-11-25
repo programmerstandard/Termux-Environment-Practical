@@ -31,3 +31,34 @@
 (setq-default tab-width 4)           ; Set standard tab width
 (setq-default indent-tabs-mode nil)  ; Use spaces instead of tabs
 
+;; --- 5. Languages & Tooling ---
+;; PHP Mode
+(use-package php-mode
+  :mode "\\.php\\'")
+
+;; Mixed HTML/PHP/JS Mode
+(use-package web-mode
+  :mode ("\\.phtml\\'" "\\.tpl\\.php\\'" "\\.html\\'"))
+
+;; Apache Config Syntax Highlighting
+(use-package apache-mode
+  :mode ("\\.htaccess\\'" "httpd\\.conf\\'"))
+
+;; Composer Integration inside Emacs
+(use-package composer
+  :defer t)
+
+;; --- Interactive MySQL Client ---
+(setq sql-connection-alist
+      '((my-local-db
+         (sql-product 'mysql)
+         (sql-user "root")
+         (sql-password "")
+         (sql-server "127.0.0.1")
+         (sql-port 3306)
+         (sql-database "test_db"))))
+
+(defun connect-mysql ()
+  "Connect to interactive MySQL session in Emacs."
+  (interactive)
+  (sql-connect 'my-local-db))

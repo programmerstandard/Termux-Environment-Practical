@@ -5,6 +5,13 @@ Use Termux's On Screen Extra Keys Row as substitute for Ctrl and Alt/Meta.
 * Ctrl represented as C+
 * Alt or Esc represented as M+
 
+## Help Keyboard Shortcuts
+
+| Action | Shortcut |
+|---|---|
+| Open Tutorial Window (help-with-tutorial) | C-h t |
+
+
 ## General Keyboard Shortcuts 
 
 | Action | Shortcut |
